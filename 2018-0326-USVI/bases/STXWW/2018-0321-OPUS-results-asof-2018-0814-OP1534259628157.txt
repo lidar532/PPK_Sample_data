@@ -1,0 +1,59 @@
+FILE: 2018_0321_stx_house_30.obs OP1534259628157
+
+ 1008   NOTE: You provided a zero or negative antenna height.
+ 1008   If ARP HGT = 0.0, OPUS solves for the position of your selected antenna's reference point (ARP).
+ 1008   If ARP HGT < 0.0, OPUS solves for a location inside or above the antenna
+ 1008
+                              NGS OPUS SOLUTION REPORT
+                              ========================
+
+All computed coordinate accuracies are listed as peak-to-peak values.
+For additional information: https://www.ngs.noaa.gov/OPUS/about.jsp#accuracy
+
+      USER: lidar532@gmail.com                      DATE: August 14, 2018
+RINEX FILE: 2018080o.18o                            TIME: 15:15:00 UTC
+
+
+  SOFTWARE: page5  1603.24 master92.pl 160321      START: 2018/03/21  14:24:00
+ EPHEMERIS: igs19933.eph [precise]                  STOP: 2018/03/21  22:58:00
+  NAV FILE: brdc0800.18n                        OBS USED: 21431 / 22917   :  94%
+  ANT NAME: CNTAT330        NONE             # FIXED AMB:   122 /   138   :  88%
+ARP HEIGHT: 0.000                            OVERALL RMS: 0.018(m)
+
+
+ REF FRAME: NAD_83(2011)(EPOCH:2010.0000)              IGS08 (EPOCH:2018.2186)
+
+         X:      2601822.758(m)   0.007(m)           2601822.105(m)   0.007(m)
+         Y:     -5491217.623(m)   0.010(m)          -5491215.756(m)   0.010(m)
+         Z:      1932094.741(m)   0.011(m)           1932094.682(m)   0.011(m)
+
+       LAT:   17 45  1.13065      0.013(m)        17 45  1.14833      0.013(m)
+     E LON:  295 21  8.31114      0.009(m)       295 21  8.31823      0.009(m)
+     W LON:   64 38 51.68886      0.009(m)        64 38 51.68177      0.009(m)
+    EL HGT:           36.803(m)   0.007(m)                34.912(m)   0.007(m)
+ ORTHO HGT:           78.036(m)   0.007(m) [ H = h-N (N = GEOID12B HGT)]
+
+                        UTM COORDINATES    STATE PLANE COORDINATES
+                         UTM (Zone 20)         SPC (5200 PRVI)
+Northing (Y) [meters]     1963327.558           191734.707
+Easting (X)  [meters]      325307.503           389375.275
+Convergence  [degrees]    -0.50245833           0.55870556
+Point Scale                0.99997732           1.00002924
+Combined Factor            0.99997153           1.00002345
+
+US NATIONAL GRID DESIGNATOR: 20QLE2530763327(NAD 83)
+
+
+                              BASE STATIONS USED
+PID       DESIGNATION                        LATITUDE    LONGITUDE DISTANCE(m)
+DL9080 PRLP LAS PIEDRAS CORS ARP           N181141.627 W0655205.750  138329.9
+DO2636 PRFJ FAJARDO CORS ARP               N181934.736 W0653905.008  123927.0
+DI2149 VITH ST. THOMAS CORS ARP            N182035.978 W0645809.171   73937.8
+
+                 NEAREST NGS PUBLISHED CONTROL POINT
+TV0059      SCHOOL HOUSE                   N174515.761 W0643857.637     482.7
+
+This position and the above vector components were computed without any 
+knowledge by the National Geodetic Survey regarding the equipment or 
+field operating procedures used.
+
