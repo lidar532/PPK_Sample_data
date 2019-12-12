@@ -1,0 +1,108 @@
+PROGRAM = datasheet95, VERSION = 8.12.5.4
+1        National Geodetic Survey,   Retrieval Date = SEPTEMBER 10, 2019
+ DG7429 ***********************************************************************
+ DG7429  CORS        -  This is a GPS Continuously Operating Reference Station.
+ DG7429  DESIGNATION -  MARSHALL FIELD CORS ARP
+ DG7429  CORS_ID     -  P041
+ DG7429  PID         -  DG7429
+ DG7429  STATE/COUNTY-  CO/BOULDER
+ DG7429  COUNTRY     -  US
+ DG7429  USGS QUAD   -  LOUISVILLE (1994)
+ DG7429
+ DG7429                         *CURRENT SURVEY CONTROL
+ DG7429  ______________________________________________________________________
+ DG7429* NAD 83(2011) POSITION- 39 56 58.15001(N) 105 11 39.31658(W)   ADJUSTED  
+ DG7429* NAD 83(2011) ELLIP HT-  1729.724 (meters)        (06/??/19)   ADJUSTED
+ DG7429* NAD 83(2011) EPOCH   -  2010.00
+ DG7429  ______________________________________________________________________
+ DG7429  GEOID HEIGHT    -        -16.258 (meters)                     GEOID18
+ DG7429  NAD 83(2011) X  - -1,283,633.475 (meters)                     COMP
+ DG7429  NAD 83(2011) Y  - -4,726,429.207 (meters)                     COMP
+ DG7429  NAD 83(2011) Z  -  4,074,798.095 (meters)                     COMP
+ DG7429
+ DG7429  Network accuracy estimates per FGDC Geospatial Positioning Accuracy
+ DG7429  Standards:                                                         
+ DG7429         FGDC (95% conf, cm)     Standard deviation (cm)     CorrNE 
+ DG7429            Horiz  Ellip           SD_N   SD_E   SD_h      (unitless)
+ DG7429  -------------------------------------------------------------------
+ DG7429  NETWORK    0.14   0.34           0.05   0.06   0.17      0.26471700
+ DG7429  -------------------------------------------------------------------
+ DG7429
+ DG7429
+ DG7429.The coordinates were established by GPS observations
+ DG7429.and adjusted by the National Geodetic Survey in June 2019.
+ DG7429
+ DG7429.NAD 83(2011) refers to NAD 83 coordinates where the reference frame has 
+ DG7429.been affixed to the stable North American Tectonic Plate. 
+ DG7429
+ DG7429.The coordinates are valid at the epoch date displayed above
+ DG7429.which is a decimal equivalence of Year/Month/Day.
+ DG7429
+ DG7429.Due to the release of the International GNSS Service (IGS) 2014
+ DG7429.realization of the International Terrestrial Reference Frame of 2014
+ DG7429.(ITRF2014), NGS reprocessed all NOAA CORS Network and some IGS stations
+ DG7429.using data collected between 1/1/1996 and 1/30/2017. The resulting ITRF2014
+ DG7429.epoch 2010.00 coordinates, referred to as Multi-Year CORS Solution 2
+ DG7429.(MYCS2), were transformed to NAD 83 (2011/PA11/MA11) maintaining the
+ DG7429.currently published epoch of 2010.00.
+ DG7429
+ DG7429.Additional information on MYCS2 is available at
+ DG7429.https://geodesy.noaa.gov/CORS/coords.shtml
+ DG7429
+ DG7429.Significant digits in the geoid height do not necessarily reflect accuracy.
+ DG7429.GEOID18 height accuracy estimate available here.
+ DG7429
+ DG7429.The PID for the CORS L1 Phase Center is DP7042.
+ DG7429
+ DG7429.Click here to see if photographs exist for this station.
+ DG7429
+ DG7429.The XYZ, and position/ellipsoidal ht. are equivalent.
+ DG7429
+ DG7429.The ellipsoidal height was determined by GPS observations
+ DG7429.and is referenced to NAD 83.
+ DG7429
+ DG7429. The following values were computed from the NAD 83(2011) position.
+ DG7429
+ DG7429;                    North         East     Units Scale Factor Converg.
+ DG7429;SPC CO N     -   373,256.925   940,529.016   MT  0.99997059   +0 11 51.2
+ DG7429;SPC CO N     - 1,224,593.76  3,085,718.95   sFT  0.99997059   +0 11 51.2
+ DG7429;UTM  13      - 4,422,168.758   483,406.268   MT  0.99960339   -0 07 29.0
+ DG7429
+ DG7429!             -  Elev Factor  x  Scale Factor =   Combined Factor
+ DG7429!SPC CO N     -   0.99972872  x   0.99997059  =   0.99969931
+ DG7429!UTM  13      -   0.99972872  x   0.99960339  =   0.99933221
+ DG7429
+ DG7429_U.S. NATIONAL GRID SPATIAL ADDRESS: 13SDE8340622168(NAD 83)
+ DG7429
+ DG7429                          SUPERSEDED SURVEY CONTROL
+ DG7429
+ DG7429  ELLIP H (06/27/12) 1729.679  (m)                       GP(2010.00) 0 0
+ DG7429  NAD 83(2011)-  39 56 58.15008(N)    105 11 39.31661(W) AD(2010.00) c
+ DG7429  NAD 83(2011)-  39 56 58.15018(N)    105 11 39.31657(W) AD(2010.00) c
+ DG7429  ELLIP H (08/??/11) 1729.713  (m)                       GP(2010.00) c c
+ DG7429  NAD 83(CORS)-  39 56 58.15000(N)    105 11 39.31685(W) AD(2002.00) c
+ DG7429  ELLIP H (10/??/04) 1729.708  (m)                       GP(2002.00) c c
+ DG7429
+ DG7429.Superseded values are not recommended for survey control.
+ DG7429
+ DG7429.NGS no longer adjusts projects to the NAD 27 or NGVD 29 datums.
+ DG7429.See file dsdata.pdf to determine how the superseded data were derived.
+ DG7429
+ DG7429_MARKER: STATION IS THE ANTENNA REFERENCE POINT OF THE GPS ANTENNA
+ DG7429
+ DG7429                          STATION DESCRIPTION
+ DG7429
+ DG7429'DESCRIBED BY NATIONAL GEODETIC SURVEY 2019
+ DG7429'STATION IS A GPS CORS.  LATEST INFORMATION INCLUDING POSITIONS AND
+ DG7429'VELOCITIES ARE AVAILABLE IN THE COORDINATE AND LOG FILES ACCESSIBLE
+ DG7429'BY ANONYMOUS FTP OR THE WORLDWIDE WEB.
+ DG7429'   ftp://cors.ngs.noaa.gov/cors/README.txt
+ DG7429'   ftp://cors.ngs.noaa.gov/cors/coord/coord_14 
+ DG7429'   ftp://cors.ngs.noaa.gov/cors/station_log 
+ DG7429'   http://geodesy.noaa.gov/CORS
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:00
+
+
+

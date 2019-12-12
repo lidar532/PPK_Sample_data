@@ -1,1 +1,0 @@
-The current file Sampling Rate is: 5. No higher sampling rate is available.

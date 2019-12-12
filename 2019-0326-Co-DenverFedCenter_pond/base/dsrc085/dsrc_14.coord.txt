@@ -1,0 +1,93 @@
+                              ***ITRF2014***
+                BOULDER (DSRC),  COLORADO
+
+ Retrieved from NGS DataBase on 07/02/19 at 14:06:37.
+ _____________________________________________________________________________ 
+|                                                                             |
+|         Antenna Reference Point(ARP): BOULDER CORS ARP                      |
+|         ----------------------------------------------                      |
+|                             PID = AI2151                                    |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =  -1288338.794 m     latitude    =  39 59 29.15054 N                 |
+|     Y =  -4721988.544 m     longitude   = 105 15 39.72063 W                 |
+|     Z =   4078321.096 m     ellipsoid height = 1656.287   m                 |
+|                                                                             |
+| ITRF2014 VELOCITY                                                           |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     VX =  -0.0147 m/yr      northward =  -0.0063 m/yr                       |
+|     VY =   0.0014 m/yr      eastward  =  -0.0146 m/yr                       |
+|     VZ =  -0.0061 m/yr      upward    =  -0.0020 m/yr                       |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =  -1288338.031 m     latitude    =  39 59 29.13022 N                 |
+|     Y =  -4721989.857 m     longitude   = 105 15 39.67505 W                 |
+|     Z =   4078321.172 m     ellipsoid height = 1657.153   m                 |
+|                                                                             |
+| NAD_83 (2011) VELOCITY                                                      |
+| Transformed from IGS14 velocity in Jun 2019.                                |
+|     VX =   0.0023 m/yr      northward =   0.0005 m/yr                       |
+|     VY =   0.0021 m/yr      eastward  =   0.0017 m/yr                       |
+|     VZ =  -0.0016 m/yr      upward    =  -0.0030 m/yr                       |
+|_____________________________________________________________________________|
+|                                                                             |
+| L1 Phase Center of the current GPS antenna: BOULDER CORS L1PC               |
+| ----------------------------------------------------------------            |
+| The Zephyr GNSS Geodetic II - RoHS compliant antenna                        |
+| (Antenna Code = TRM57971.00     NONE) was installed on 11Oct2012.           |
+|        The L2 phase center is 0.007 m below the L1 phase center.            |
+|                             PID = DO9092                                    |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =  -1288338.807 m     latitude    =  39 59 29.15058 N                 |
+|     Y =  -4721988.591 m     longitude   = 105 15 39.72064 W                 |
+|     Z =   4078321.138 m     ellipsoid height = 1656.352   m                 |
+|                                                                             |
+| The ITRF2014 VELOCITY of the L1 PC is the same as that for the ARP.         |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =  -1288338.044 m     latitude    =  39 59 29.13026 N                 |
+|     Y =  -4721989.904 m     longitude   = 105 15 39.67505 W                 |
+|     Z =   4078321.214 m     ellipsoid height = 1657.218   m                 |
+|                                                                             |
+| The NAD_83 (2011) VELOCITY of the L1 PC is the same as that for the ARP.    |
+|_____________________________________________________________________________|
+
+
+ * Latitude, longitude and ellipsoid height are computed from their
+   corresponding cartesian coordinates using dimensions for the
+   GRS 80 ellipsoid: semi-major axis = 6,378,137.0 meters
+                          flattening = 1/298.257222101...
+
+
+ * WARNING: Mixing of antenna types can lead to errors of up to 10 cm.
+   in height unless antenna-phase-center variation and antenna-phase-center
+   offset are properly modeled.  See next comment.
+
+ * The coordinates shown on this page were computed using absolute antenna
+   calibrations.  CORS coordinates began using absolute antenna calibrations
+   beginning with IGS08 and NAD 83 (2011, MA11, PA11).  For additional
+   information on the derivation of these positions and velocities and
+   antenna calibrations consult:
+   http://geodesy.noaa.gov/CORS/coords.shtml
+   http://geodesy.noaa.gov/ANTCAL
+
+
+ * For more site specific information on the equipment history and
+   monumentation type consult:
+   ftp://geodesy.noaa.gov/cors/station_log/dsrc.log.txt
+   http://geodesy.noaa.gov/cgi-cors/corsage_2.prl?site=dsrc
+
+
+ * The NAD_83 position & velocity were revised in Mar. 2002.
+ * The ITRF00 & NAD83 positions & velocities were revised in Aug. 2007.
+ * The position & velocity were revised in Aug 2011.
+ * The position & velocity were revised in Jun 2019.

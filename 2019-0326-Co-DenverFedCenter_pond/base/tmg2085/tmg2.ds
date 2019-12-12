@@ -1,0 +1,102 @@
+PROGRAM = datasheet95, VERSION = 8.12.5.4
+1        National Geodetic Survey,   Retrieval Date = SEPTEMBER 10, 2019
+ DQ7576 ***********************************************************************
+ DQ7576  CORS        -  This is a GPS Continuously Operating Reference Station.
+ DQ7576  DESIGNATION -  TABLE MOUNTAIN 2 CORS ARP
+ DQ7576  CORS_ID     -  TMG2
+ DQ7576  PID         -  DQ7576
+ DQ7576  STATE/COUNTY-  CO/BOULDER
+ DQ7576  COUNTRY     -  US
+ DQ7576  USGS QUAD   -  HYGIENE (1979)
+ DQ7576
+ DQ7576                         *CURRENT SURVEY CONTROL
+ DQ7576  ______________________________________________________________________
+ DQ7576* NAD 83(2011) POSITION- 40 07 47.83494(N) 105 13 58.99926(W)   ADJUSTED  
+ DQ7576* NAD 83(2011) ELLIP HT-  1669.990 (meters)        (08/??/19)   ADJUSTED
+ DQ7576* NAD 83(2011) EPOCH   -  2010.00
+ DQ7576  ______________________________________________________________________
+ DQ7576  GEOID HEIGHT    -        -15.924 (meters)                     GEOID18
+ DQ7576  NAD 83(2011) X  - -1,283,433.936 (meters)                     COMP
+ DQ7576  NAD 83(2011) Y  - -4,713,073.293 (meters)                     COMP
+ DQ7576  NAD 83(2011) Z  -  4,090,105.087 (meters)                     COMP
+ DQ7576
+ DQ7576.Formal positional accuracy estimates are not available for this CORS
+ DQ7576.because its coordinates were determined in part using modeled
+ DQ7576.velocities. Approximate one-sigma accuracies for latitude, longitude,
+ DQ7576.and ellipsoid height can be obtained from the short-term time series.
+ DQ7576.Additional information regarding modeled velocities is available on
+ DQ7576.the CORS Coordinates for MYCS2 web page: https://www.ngs.noaa.gov/CORS/coords.shtml.
+ DQ7576
+ DQ7576.The coordinates were established by GPS observations
+ DQ7576.and adjusted by the National Geodetic Survey in August 2019.
+ DQ7576
+ DQ7576.NAD 83(2011) refers to NAD 83 coordinates where the reference frame has 
+ DQ7576.been affixed to the stable North American Tectonic Plate. 
+ DQ7576
+ DQ7576.The coordinates are valid at the epoch date displayed above
+ DQ7576.which is a decimal equivalence of Year/Month/Day.
+ DQ7576
+ DQ7576.Due to the release of the International GNSS Service (IGS) 2014
+ DQ7576.realization of the International Terrestrial Reference Frame of 2014
+ DQ7576.(ITRF2014), NGS reprocessed all NOAA CORS Network and some IGS stations
+ DQ7576.using data collected between 1/1/1996 and 1/30/2017. The resulting ITRF2014
+ DQ7576.epoch 2010.00 coordinates, referred to as Multi-Year CORS Solution 2
+ DQ7576.(MYCS2), were transformed to NAD 83 (2011/PA11/MA11) maintaining the
+ DQ7576.currently published epoch of 2010.00.
+ DQ7576
+ DQ7576.Additional information on MYCS2 is available at
+ DQ7576.https://geodesy.noaa.gov/CORS/coords.shtml
+ DQ7576
+ DQ7576.Significant digits in the geoid height do not necessarily reflect accuracy.
+ DQ7576.GEOID18 height accuracy estimate available here.
+ DQ7576
+ DQ7576.The PID for the CORS L1 Phase Center is DQ7577.
+ DQ7576
+ DQ7576.Click here to see if photographs exist for this station.
+ DQ7576
+ DQ7576.The XYZ, and position/ellipsoidal ht. are equivalent.
+ DQ7576
+ DQ7576.The ellipsoidal height was determined by GPS observations
+ DQ7576.and is referenced to NAD 83.
+ DQ7576
+ DQ7576. The following values were computed from the NAD 83(2011) position.
+ DQ7576
+ DQ7576;                    North         East     Units Scale Factor Converg.
+ DQ7576;SPC CO N     -   393,283.746   937,153.024   MT  0.99995906   +0 10 20.9
+ DQ7576;SPC CO N     - 1,290,298.42  3,074,642.88   sFT  0.99995906   +0 10 20.9
+ DQ7576;UTM  13      - 4,442,207.048   480,144.219   MT  0.99960485   -0 09 00.8
+ DQ7576
+ DQ7576!             -  Elev Factor  x  Scale Factor =   Combined Factor
+ DQ7576!SPC CO N     -   0.99973809  x   0.99995906  =   0.99969716
+ DQ7576!UTM  13      -   0.99973809  x   0.99960485  =   0.99934304
+ DQ7576
+ DQ7576_U.S. NATIONAL GRID SPATIAL ADDRESS: 13TDE8014442207(NAD 83)
+ DQ7576
+ DQ7576                          SUPERSEDED SURVEY CONTROL
+ DQ7576
+ DQ7576  NAD 83(2011)-  40 07 47.83509(N)    105 13 58.99929(W) AD(2010.00) c
+ DQ7576  ELLIP H (03/??/18) 1670.000  (m)                       GP(2010.00) c c
+ DQ7576
+ DQ7576.Superseded values are not recommended for survey control.
+ DQ7576
+ DQ7576.NGS no longer adjusts projects to the NAD 27 or NGVD 29 datums.
+ DQ7576.See file dsdata.pdf to determine how the superseded data were derived.
+ DQ7576
+ DQ7576_MARKER: STATION IS THE ANTENNA REFERENCE POINT OF THE GPS ANTENNA
+ DQ7576
+ DQ7576                          STATION DESCRIPTION
+ DQ7576
+ DQ7576'DESCRIBED BY NATIONAL GEODETIC SURVEY 2019
+ DQ7576'STATION IS A GPS CORS.  LATEST INFORMATION INCLUDING POSITIONS AND
+ DQ7576'VELOCITIES ARE AVAILABLE IN THE COORDINATE AND LOG FILES ACCESSIBLE
+ DQ7576'BY ANONYMOUS FTP OR THE WORLDWIDE WEB.
+ DQ7576'   ftp://cors.ngs.noaa.gov/cors/README.txt
+ DQ7576'   ftp://cors.ngs.noaa.gov/cors/coord/coord_14 
+ DQ7576'   ftp://cors.ngs.noaa.gov/cors/station_log 
+ DQ7576'   http://geodesy.noaa.gov/CORS
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:01
+
+
+

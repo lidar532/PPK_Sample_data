@@ -1,0 +1,110 @@
+PROGRAM = datasheet95, VERSION = 8.12.5.4
+1        National Geodetic Survey,   Retrieval Date = SEPTEMBER 10, 2019
+ DF9219 ***********************************************************************
+ DF9219  CORS        -  This is a GPS Continuously Operating Reference Station.
+ DF9219  DESIGNATION -  DENVER WAAS 1 CORS ARP
+ DF9219  CORS_ID     -  ZDV1
+ DF9219  PID         -  DF9219
+ DF9219  STATE/COUNTY-  CO/BOULDER
+ DF9219  COUNTRY     -  US
+ DF9219  USGS QUAD   -  HYGIENE (1979)
+ DF9219
+ DF9219                         *CURRENT SURVEY CONTROL
+ DF9219  ______________________________________________________________________
+ DF9219* NAD 83(2011) POSITION- 40 11 14.27201(N) 105 07 37.95983(W)   ADJUSTED  
+ DF9219* NAD 83(2011) ELLIP HT-  1541.784 (meters)        (06/??/19)   ADJUSTED
+ DF9219* NAD 83(2011) EPOCH   -  2010.00
+ DF9219  ______________________________________________________________________
+ DF9219  GEOID HEIGHT    -        -16.642 (meters)                     GEOID18
+ DF9219  NAD 83(2011) X  - -1,273,627.707 (meters)                     COMP
+ DF9219  NAD 83(2011) Y  - -4,711,376.566 (meters)                     COMP
+ DF9219  NAD 83(2011) Z  -  4,094,889.922 (meters)                     COMP
+ DF9219
+ DF9219  Network accuracy estimates per FGDC Geospatial Positioning Accuracy
+ DF9219  Standards:                                                         
+ DF9219         FGDC (95% conf, cm)     Standard deviation (cm)     CorrNE 
+ DF9219            Horiz  Ellip           SD_N   SD_E   SD_h      (unitless)
+ DF9219  -------------------------------------------------------------------
+ DF9219  NETWORK    0.18   0.45           0.07   0.08   0.23      0.19623100
+ DF9219  -------------------------------------------------------------------
+ DF9219
+ DF9219
+ DF9219.The coordinates were established by GPS observations
+ DF9219.and adjusted by the National Geodetic Survey in June 2019.
+ DF9219
+ DF9219.NAD 83(2011) refers to NAD 83 coordinates where the reference frame has 
+ DF9219.been affixed to the stable North American Tectonic Plate. 
+ DF9219
+ DF9219.The coordinates are valid at the epoch date displayed above
+ DF9219.which is a decimal equivalence of Year/Month/Day.
+ DF9219
+ DF9219.Due to the release of the International GNSS Service (IGS) 2014
+ DF9219.realization of the International Terrestrial Reference Frame of 2014
+ DF9219.(ITRF2014), NGS reprocessed all NOAA CORS Network and some IGS stations
+ DF9219.using data collected between 1/1/1996 and 1/30/2017. The resulting ITRF2014
+ DF9219.epoch 2010.00 coordinates, referred to as Multi-Year CORS Solution 2
+ DF9219.(MYCS2), were transformed to NAD 83 (2011/PA11/MA11) maintaining the
+ DF9219.currently published epoch of 2010.00.
+ DF9219
+ DF9219.Additional information on MYCS2 is available at
+ DF9219.https://geodesy.noaa.gov/CORS/coords.shtml
+ DF9219
+ DF9219.Significant digits in the geoid height do not necessarily reflect accuracy.
+ DF9219.GEOID18 height accuracy estimate available here.
+ DF9219
+ DF9219.The PID for the CORS L1 Phase Center is DI6103.
+ DF9219
+ DF9219.Click here to see if photographs exist for this station.
+ DF9219
+ DF9219.The XYZ, and position/ellipsoidal ht. are equivalent.
+ DF9219
+ DF9219.The ellipsoidal height was determined by GPS observations
+ DF9219.and is referenced to NAD 83.
+ DF9219
+ DF9219. The following values were computed from the NAD 83(2011) position.
+ DF9219
+ DF9219;                    North         East     Units Scale Factor Converg.
+ DF9219;SPC CO N     -   399,683.267   946,147.123   MT  0.99995746   +0 14 27.1
+ DF9219;SPC CO N     - 1,311,294.19  3,104,151.02   sFT  0.99995746   +0 14 27.1
+ DF9219;UTM  13      - 4,448,553.535   489,171.026   MT  0.99960144   -0 04 55.5
+ DF9219
+ DF9219!             -  Elev Factor  x  Scale Factor =   Combined Factor
+ DF9219!SPC CO N     -   0.99975819  x   0.99995746  =   0.99971566
+ DF9219!UTM  13      -   0.99975819  x   0.99960144  =   0.99935973
+ DF9219
+ DF9219_U.S. NATIONAL GRID SPATIAL ADDRESS: 13TDE8917148553(NAD 83)
+ DF9219
+ DF9219                          SUPERSEDED SURVEY CONTROL
+ DF9219
+ DF9219  ELLIP H (06/27/12) 1541.773  (m)                       GP(2010.00) 0 0
+ DF9219  NAD 83(2011)-  40 11 14.27248(N)    105 07 37.95969(W) AD(2010.00) c
+ DF9219  NAD 83(2011)-  40 11 14.27200(N)    105 07 37.95976(W) AD(2010.00) c
+ DF9219  ELLIP H (08/??/11) 1541.784  (m)                       GP(2010.00) c c
+ DF9219  ELLIP H (02/10/07) 1541.783  (m)                       GP(2002.00)    
+ DF9219  NAD 83(2007)-  40 11 14.27224(N)    105 07 37.96036(W) AD(2002.00) c
+ DF9219  NAD 83(CORS)-  40 11 14.27224(N)    105 07 37.96036(W) AD(2002.00) c
+ DF9219  ELLIP H (12/??/03) 1541.783  (m)                       GP(2002.00) c c
+ DF9219
+ DF9219.Superseded values are not recommended for survey control.
+ DF9219
+ DF9219.NGS no longer adjusts projects to the NAD 27 or NGVD 29 datums.
+ DF9219.See file dsdata.pdf to determine how the superseded data were derived.
+ DF9219
+ DF9219_MARKER: STATION IS THE ANTENNA REFERENCE POINT OF THE GPS ANTENNA
+ DF9219
+ DF9219                          STATION DESCRIPTION
+ DF9219
+ DF9219'DESCRIBED BY NATIONAL GEODETIC SURVEY 2019
+ DF9219'STATION IS A GPS CORS.  LATEST INFORMATION INCLUDING POSITIONS AND
+ DF9219'VELOCITIES ARE AVAILABLE IN THE COORDINATE AND LOG FILES ACCESSIBLE
+ DF9219'BY ANONYMOUS FTP OR THE WORLDWIDE WEB.
+ DF9219'   ftp://cors.ngs.noaa.gov/cors/README.txt
+ DF9219'   ftp://cors.ngs.noaa.gov/cors/coord/coord_14 
+ DF9219'   ftp://cors.ngs.noaa.gov/cors/station_log 
+ DF9219'   http://geodesy.noaa.gov/CORS
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:00
+
+
+

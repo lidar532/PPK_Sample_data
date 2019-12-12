@@ -1,0 +1,115 @@
+                              ***ITRF2014***
+                MARSHALL FIELD (P041),  COLORADO
+
+ Retrieved from NGS DataBase on 07/02/19 at 14:19:31.
+ _____________________________________________________________________________ 
+|                                                                             |
+|         Antenna Reference Point(ARP): MARSHALL FIELD CORS ARP               |
+|         -----------------------------------------------------               |
+|                             PID = DG7429                                    |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =  -1283634.237 m     latitude    =  39 56 58.17034 N                 |
+|     Y =  -4726427.894 m     longitude   = 105 11 39.36207 W                 |
+|     Z =   4074798.019 m     ellipsoid height = 1728.856   m                 |
+|                                                                             |
+| ITRF2014 VELOCITY                                                           |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     VX =  -0.0150 m/yr      northward =  -0.0062 m/yr                       |
+|     VY =   0.0007 m/yr      eastward  =  -0.0147 m/yr                       |
+|     VZ =  -0.0054 m/yr      upward    =  -0.0010 m/yr                       |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =  -1283633.475 m     latitude    =  39 56 58.15001 N                 |
+|     Y =  -4726429.207 m     longitude   = 105 11 39.31658 W                 |
+|     Z =   4074798.095 m     ellipsoid height = 1729.724   m                 |
+|                                                                             |
+| NAD_83 (2011) VELOCITY                                                      |
+| Transformed from IGS14 velocity in Jun 2019.                                |
+|     VX =   0.0020 m/yr      northward =   0.0005 m/yr                       |
+|     VY =   0.0014 m/yr      eastward  =   0.0016 m/yr                       |
+|     VZ =  -0.0009 m/yr      upward    =  -0.0020 m/yr                       |
+|_____________________________________________________________________________|
+|                                                                             |
+| L1 Phase Center of the current GPS antenna: MARSHALL FIELD CORS L1PC        |
+| -----------------------------------------------------------------------     |
+| The Dorne Margolin with chokerings, Model 59 antenna                        |
+| (Antenna Code = TRM59800.80     SCIT) was installed on 08Apr2015.           |
+|        The L2 phase center is 0.033 m above the L1 phase center.            |
+|                             PID = DP7042                                    |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =  -1283634.253 m     latitude    =  39 56 58.17038 N                 |
+|     Y =  -4726427.956 m     longitude   = 105 11 39.36204 W                 |
+|     Z =   4074798.075 m     ellipsoid height = 1728.941   m                 |
+|                                                                             |
+| The ITRF2014 VELOCITY of the L1 PC is the same as that for the ARP.         |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =  -1283633.491 m     latitude    =  39 56 58.15005 N                 |
+|     Y =  -4726429.269 m     longitude   = 105 11 39.31654 W                 |
+|     Z =   4074798.151 m     ellipsoid height = 1729.808   m                 |
+|                                                                             |
+| The NAD_83 (2011) VELOCITY of the L1 PC is the same as that for the ARP.    |
+|_____________________________________________________________________________|
+|                                                                             |
+|         Monument: MARSHALL FIELD CORS GRP                                   |
+|         ---------------------------------                                   |
+|                             PID = DG7431                                    |
+|         Inscribed: UNKNOWN                                                  |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =  -1283634.236 m     latitude    =  39 56 58.17034 N                 |
+|     Y =  -4726427.887 m     longitude   = 105 11 39.36207 W                 |
+|     Z =   4074798.014 m     ellipsoid height = 1728.848   m                 |
+|                                                                             |
+| The ITRF2014 VELOCITY of the monument is the same as that for the ARP.      |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =  -1283633.473 m     latitude    =  39 56 58.15001 N                 |
+|     Y =  -4726429.201 m     longitude   = 105 11 39.31658 W                 |
+|     Z =   4074798.090 m     ellipsoid height = 1729.715   m                 |
+|                                                                             |
+| The NAD_83 (2011) VELOCITY of the monument is the same as that for the ARP. |
+|_____________________________________________________________________________|
+
+
+ * Latitude, longitude and ellipsoid height are computed from their
+   corresponding cartesian coordinates using dimensions for the
+   GRS 80 ellipsoid: semi-major axis = 6,378,137.0 meters
+                          flattening = 1/298.257222101...
+
+
+ * WARNING: Mixing of antenna types can lead to errors of up to 10 cm.
+   in height unless antenna-phase-center variation and antenna-phase-center
+   offset are properly modeled.  See next comment.
+
+ * The coordinates shown on this page were computed using absolute antenna
+   calibrations.  CORS coordinates began using absolute antenna calibrations
+   beginning with IGS08 and NAD 83 (2011, MA11, PA11).  For additional
+   information on the derivation of these positions and velocities and
+   antenna calibrations consult:
+   http://geodesy.noaa.gov/CORS/coords.shtml
+   http://geodesy.noaa.gov/ANTCAL
+
+
+ * For more site specific information on the equipment history and
+   monumentation type consult:
+   ftp://geodesy.noaa.gov/cors/station_log/p041.log.txt
+   http://geodesy.noaa.gov/cgi-cors/corsage_2.prl?site=p041
+
+
+ * The position & velocity were revised in Aug 2011.
+ * The position & velocity were revised in Jun 2019.

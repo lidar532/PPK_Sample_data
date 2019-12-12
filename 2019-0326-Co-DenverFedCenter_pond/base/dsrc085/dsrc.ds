@@ -1,0 +1,114 @@
+PROGRAM = datasheet95, VERSION = 8.12.5.4
+1        National Geodetic Survey,   Retrieval Date = SEPTEMBER 10, 2019
+ AI2151 ***********************************************************************
+ AI2151  CORS        -  This is a GPS Continuously Operating Reference Station.
+ AI2151  DESIGNATION -  BOULDER CORS ARP
+ AI2151  CORS_ID     -  DSRC
+ AI2151  PID         -  AI2151
+ AI2151  STATE/COUNTY-  CO/BOULDER
+ AI2151  COUNTRY     -  US
+ AI2151  USGS QUAD   -  ELDORADO SPRINGS (1994)
+ AI2151
+ AI2151                         *CURRENT SURVEY CONTROL
+ AI2151  ______________________________________________________________________
+ AI2151* NAD 83(2011) POSITION- 39 59 29.13022(N) 105 15 39.67505(W)   ADJUSTED  
+ AI2151* NAD 83(2011) ELLIP HT-  1657.153 (meters)        (06/??/19)   ADJUSTED
+ AI2151* NAD 83(2011) EPOCH   -  2010.00
+ AI2151  ______________________________________________________________________
+ AI2151  GEOID HEIGHT    -        -15.759 (meters)                     GEOID18
+ AI2151  NAD 83(2011) X  - -1,288,338.031 (meters)                     COMP
+ AI2151  NAD 83(2011) Y  - -4,721,989.857 (meters)                     COMP
+ AI2151  NAD 83(2011) Z  -  4,078,321.172 (meters)                     COMP
+ AI2151
+ AI2151  Network accuracy estimates per FGDC Geospatial Positioning Accuracy
+ AI2151  Standards:                                                         
+ AI2151         FGDC (95% conf, cm)     Standard deviation (cm)     CorrNE 
+ AI2151            Horiz  Ellip           SD_N   SD_E   SD_h      (unitless)
+ AI2151  -------------------------------------------------------------------
+ AI2151  NETWORK    0.15   0.40           0.06   0.06   0.20      0.14602300
+ AI2151  -------------------------------------------------------------------
+ AI2151
+ AI2151
+ AI2151.The coordinates were established by GPS observations
+ AI2151.and adjusted by the National Geodetic Survey in June 2019.
+ AI2151
+ AI2151.NAD 83(2011) refers to NAD 83 coordinates where the reference frame has 
+ AI2151.been affixed to the stable North American Tectonic Plate. 
+ AI2151
+ AI2151.The coordinates are valid at the epoch date displayed above
+ AI2151.which is a decimal equivalence of Year/Month/Day.
+ AI2151
+ AI2151.Due to the release of the International GNSS Service (IGS) 2014
+ AI2151.realization of the International Terrestrial Reference Frame of 2014
+ AI2151.(ITRF2014), NGS reprocessed all NOAA CORS Network and some IGS stations
+ AI2151.using data collected between 1/1/1996 and 1/30/2017. The resulting ITRF2014
+ AI2151.epoch 2010.00 coordinates, referred to as Multi-Year CORS Solution 2
+ AI2151.(MYCS2), were transformed to NAD 83 (2011/PA11/MA11) maintaining the
+ AI2151.currently published epoch of 2010.00.
+ AI2151
+ AI2151.Additional information on MYCS2 is available at
+ AI2151.https://geodesy.noaa.gov/CORS/coords.shtml
+ AI2151
+ AI2151.Significant digits in the geoid height do not necessarily reflect accuracy.
+ AI2151.GEOID18 height accuracy estimate available here.
+ AI2151
+ AI2151.The PID for the CORS L1 Phase Center is DO9092.
+ AI2151
+ AI2151.Click here to see if photographs exist for this station.
+ AI2151
+ AI2151.The XYZ, and position/ellipsoidal ht. are equivalent.
+ AI2151
+ AI2151.The ellipsoidal height was determined by GPS observations
+ AI2151.and is referenced to NAD 83.
+ AI2151
+ AI2151. The following values were computed from the NAD 83(2011) position.
+ AI2151
+ AI2151;                    North         East     Units Scale Factor Converg.
+ AI2151;SPC CO N     -   377,895.890   934,811.035   MT  0.99996703   +0 09 15.9
+ AI2151;SPC CO N     - 1,239,813.43  3,066,959.20   sFT  0.99996703   +0 09 15.9
+ AI2151;UTM  13      - 4,426,838.106   477,716.539   MT  0.99960611   -0 10 03.9
+ AI2151
+ AI2151!             -  Elev Factor  x  Scale Factor =   Combined Factor
+ AI2151!SPC CO N     -   0.99974010  x   0.99996703  =   0.99970713
+ AI2151!UTM  13      -   0.99974010  x   0.99960611  =   0.99934631
+ AI2151
+ AI2151_U.S. NATIONAL GRID SPATIAL ADDRESS: 13SDE7771626838(NAD 83)
+ AI2151
+ AI2151                          SUPERSEDED SURVEY CONTROL
+ AI2151
+ AI2151  ELLIP H (06/27/12) 1657.168  (m)                       GP(2010.00) 0 0
+ AI2151  NAD 83(2011)-  39 59 29.13009(N)    105 15 39.67554(W) AD(2010.00) c
+ AI2151  NAD 83(2011)-  39 59 29.13021(N)    105 15 39.67502(W) AD(2010.00) c
+ AI2151  ELLIP H (08/??/11) 1657.161  (m)                       GP(2010.00) c c
+ AI2151  NAD 83(CORS)-  39 59 29.12979(N)    105 15 39.67589(W) AD(2002.00) c
+ AI2151  ELLIP H (08/??/07) 1657.176  (m)                       GP(2002.00) c c
+ AI2151  ELLIP H (02/10/07) 1657.199  (m)                       GP(2002.00)    
+ AI2151  NAD 83(2007)-  39 59 29.12991(N)    105 15 39.67589(W) AD(2002.00) c
+ AI2151  NAD 83(CORS)-  39 59 29.12991(N)    105 15 39.67589(W) AD(2002.00) c
+ AI2151  ELLIP H (03/??/02) 1657.199  (m)                       GP(2002.00) c c
+ AI2151  NAD 83(CORS)-  39 59 29.12933(N)    105 15 39.67615(W) AD(1997.00) c
+ AI2151  ELLIP H (10/??/99) 1657.204  (m)                       GP(1997.00) c c
+ AI2151
+ AI2151.Superseded values are not recommended for survey control.
+ AI2151
+ AI2151.NGS no longer adjusts projects to the NAD 27 or NGVD 29 datums.
+ AI2151.See file dsdata.pdf to determine how the superseded data were derived.
+ AI2151
+ AI2151_MARKER: STATION IS THE ANTENNA REFERENCE POINT OF THE GPS ANTENNA
+ AI2151
+ AI2151                          STATION DESCRIPTION
+ AI2151
+ AI2151'DESCRIBED BY NATIONAL GEODETIC SURVEY 2019
+ AI2151'STATION IS A GPS CORS.  LATEST INFORMATION INCLUDING POSITIONS AND
+ AI2151'VELOCITIES ARE AVAILABLE IN THE COORDINATE AND LOG FILES ACCESSIBLE
+ AI2151'BY ANONYMOUS FTP OR THE WORLDWIDE WEB.
+ AI2151'   ftp://cors.ngs.noaa.gov/cors/README.txt
+ AI2151'   ftp://cors.ngs.noaa.gov/cors/coord/coord_14 
+ AI2151'   ftp://cors.ngs.noaa.gov/cors/station_log 
+ AI2151'   http://geodesy.noaa.gov/CORS
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:01
+
+
+
