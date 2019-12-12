@@ -1,0 +1,114 @@
+                              ***IGS 08***
+                ST. THOMAS (VITH),  US VIRGIN ISLANDS
+
+ Created on 31Aug2011 at 09:46:02.
+ _____________________________________________________________________________ 
+|                                                                             |
+|         Antenna Reference Point(ARP): ST. THOMAS CORS ARP                   |
+|         -------------------------------------------------                   |
+|                             PID = DI2149                                    |
+|                                                                             |
+|                                                                             |
+| IGS08 POSITION (EPOCH 2005.0)                                               |
+| Computed in Aug 2011 using data through gpswk 1631.                         |
+|     X =   2562351.099 m     latitude    =  18 20 35.99054 N                 |
+|     Y =  -5487279.904 m     longitude   = 064 58 09.16921 W                 |
+|     Z =   1994491.257 m     ellipsoid height =    4.496   m                 |
+|                                                                             |
+| IGS08 VELOCITY                                                              |
+| Computed in Aug 2011 using data through gpswk 1631.                         |
+|     VX =   0.0068 m/yr      northward =   0.0138 m/yr                       |
+|     VY =   0.0069 m/yr      eastward  =   0.0091 m/yr                       |
+|     VZ =   0.0134 m/yr      upward    =   0.0010 m/yr                       |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS08 (epoch 2005.0) position in Aug 2011.                 |
+|     X =   2562351.851 m     latitude    =  18 20 35.97813 N                 |
+|     Y =  -5487281.659 m     longitude   = 064 58 09.17131 W                 |
+|     Z =   1994491.488 m     ellipsoid height =    6.380   m                 |
+|                                                                             |
+| NAD_83 (2011) VELOCITY                                                      |
+| Transformed from IGS08 velocity in Aug 2011.                                |
+|     VX =   0.0160 m/yr      northward =   0.0042 m/yr                       |
+|     VY =   0.0081 m/yr      eastward  =   0.0179 m/yr                       |
+|     VZ =   0.0042 m/yr      upward    =   0.0008 m/yr                       |
+|_____________________________________________________________________________|
+|                                                                             |
+| L1 Phase Center of the current GPS antenna: ST. THOMAS CORS L1 PC C         |
+| -------------------------------------------------------------------         |
+| The Trimble Zephyr Geodetic with GP antenna                                 |
+| (Antenna Code = TRM41249.00     NONE) was installed on 16Aug2006.           |
+|        The L2 phase center is 0.002 m above the L1 phase center.            |
+|                             PID = DI2150                                    |
+|                                                                             |
+|                                                                             |
+| IGS08 POSITION (EPOCH 2005.0)                                               |
+| Computed in Aug 2011 using data through gpswk 1631.                         |
+|     X =   2562351.122 m     latitude    =  18 20 35.99055 N                 |
+|     Y =  -5487279.951 m     longitude   = 064 58 09.16920 W                 |
+|     Z =   1994491.275 m     ellipsoid height =    4.552   m                 |
+|                                                                             |
+| The IGS08 VELOCITY of the L1 PC is the same as that for the ARP.            |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS08 (epoch 2005.0) position in Aug 2011.                 |
+|     X =   2562351.874 m     latitude    =  18 20 35.97814 N                 |
+|     Y =  -5487281.707 m     longitude   = 064 58 09.17129 W                 |
+|     Z =   1994491.506 m     ellipsoid height =    6.436   m                 |
+|                                                                             |
+| The NAD_83 (2011) VELOCITY of the L1 PC is the same as that for the ARP.    |
+|_____________________________________________________________________________|
+|                                                                             |
+|         Monument: ST. THOMAS MON                                            |
+|         ------------------------                                            |
+|                             PID = DI2151                                    |
+|         Inscribed: UNKNOWN                                                  |
+|                                                                             |
+|                                                                             |
+| IGS08 POSITION (EPOCH 2005.0)                                               |
+| Computed in Aug 2011 using data through gpswk 1631.                         |
+|     X =   2562351.067 m     latitude    =  18 20 35.99054 N                 |
+|     Y =  -5487279.835 m     longitude   = 064 58 09.16921 W                 |
+|     Z =   1994491.232 m     ellipsoid height =    4.416   m                 |
+|                                                                             |
+| The IGS08 VELOCITY of the monument is the same as that for the ARP.         |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS08 (epoch 2005.0) position in Aug 2011.                 |
+|     X =   2562351.819 m     latitude    =  18 20 35.97813 N                 |
+|     Y =  -5487281.591 m     longitude   = 064 58 09.17131 W                 |
+|     Z =   1994491.463 m     ellipsoid height =    6.301   m                 |
+|                                                                             |
+| The NAD_83 (2011) VELOCITY of the monument is the same as that for the ARP. |
+|_____________________________________________________________________________|
+
+
+ * Latitude, longitude and ellipsoid height are computed from their
+   corresponding cartesian coordinates using dimensions for the
+   GRS 80 ellipsoid: semi-major axis = 6,378,137.0 meters
+                          flattening = 1/298.257222101...
+
+
+ * WARNING: Mixing of antenna types can lead to errors of up to 10 cm.
+   in height unless antenna-phase-center variation and antenna-phase-center
+   offset are properly modeled.  See next comment.
+
+ * The coordinates shown on this page were computed using absolute antenna
+   calibrations.  CORS coordinates began using absolute antenna calibrations
+   beginning with IGS08 and NAD 83 (2011, MA11, PA11).  For additional
+   information on the derivation of these positions and velocities and
+   antenna calibrations consult:
+   http://geodesy.noaa.gov/CORS/coords.shtml
+   http://geodesy.noaa.gov/ANTCAL
+
+
+ * For more site specific information on the equipment history and
+   monumentation type consult:
+   ftp://geodesy.noaa.gov/cors/station_log/vith.log.txt
+   http://geodesy.noaa.gov/cgi-cors/corsage_2.prl?site=vith
+
+
+ * The position & velocity were revised in Aug 2011.

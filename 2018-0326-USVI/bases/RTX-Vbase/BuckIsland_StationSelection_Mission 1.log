@@ -1,0 +1,194 @@
+--------------------------------------------------------------------------------
+Station Selection Utility [1/27/2015]
+Copyright (c) 1997-2015 Applanix Corporation.  All rights reserved.
+Date : 3/29/2018    Time : 8:25 PM
+--------------------------------------------------------------------------------
+Date                  Station               Distance              Data Type             Data Rate             Database              Status                Service               Coordinate Quality    QCQI                  SBQI                  
+3/26/2018             VITH                  74.38                 GPS                   30                    Smart Base            Imported              CORS (daily)          NETWORK_ADJ           9                     9                     
+3/26/2018             PRFJ                  127.17                GNSS                  30                    Smart Base            Imported              CORS (daily)          NETWORK_ADJ           9                     9                     
+3/26/2018             PRLP                  142.32                GNSS                  30                    Smart Base            Imported              CORS (daily)          NETWORK_ADJ           9                     9                     
+3/26/2018             ZSU4                  164.62                GPS                   30                    Smart Base            Imported              CORS (daily)          NETWORK_ADJ           9                     9                     
+3/26/2018             PRHL                  177.76                GNSS                  30                    Smart Base            Imported              CORS (daily)          NETWORK_ADJ           9                     9                     
+3/26/2018             OLVN                  276.35                GPS                   15                    Smart Base            Imported              UNAVCO (daily)        DAILY_ADJ             9                     9                     
+3/26/2018             CN42                  681.45                GPS                   15                    Smart Base            Imported              UNAVCO (daily)        UNKNOWN_ACC           9                     9                     
+3/26/2018             Broadcast GLONASS     Ephemeris                                   0                                           Imported              TRIMBLE (broadcast GLONASS)                      0                     0                     
+3/26/2018             Broadcast             Ephemeris                                   0                                           Imported              TRIMBLE (broadcast)                         0                     0                     
+
+
+----------------------------------------------------------
+         Diagnostic message log for service check         
+----------------------------------------------------------
+
+Date : 3/29/2018    Time : 8:22 PM
+FtpWebResponse from IGS (daily) service for date: 3/26/2018 returns exception: Unable to connect to the remote server
+
+Date : 3/29/2018    Time : 8:22 PM
+FtpWebResponse from IGS (daily) service for date: 3/26/2018 returns exception: Unable to connect to the remote server
+
+Date : 3/29/2018    Time : 8:22 PM
+FtpWebResponse from IGS (daily) service for date: 3/26/2018 returns exception: Unable to connect to the remote server
+
+******************* IGS (daily) service for date: 3/26/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:22 PM
+FtpWebResponse from RBMC (daily) service for date: 3/26/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* RBMC (daily) service for date: 3/26/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:23 PM
+FtpWebResponse from IGS (final GLONASS) service for date: 3/25/2018 returns exception: Unable to connect to the remote server
+
+Date : 3/29/2018    Time : 8:23 PM
+FtpWebResponse from IGS (final GLONASS) service for date: 3/25/2018 returns exception: Unable to connect to the remote server
+
+Date : 3/29/2018    Time : 8:23 PM
+FtpWebResponse from IGS (final GLONASS) service for date: 3/25/2018 returns exception: Unable to connect to the remote server
+
+******************* IGS (final GLONASS) service for date: 3/25/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:24 PM
+FtpWebResponse from IGS (final) service for date: 3/26/2018 returns exception: Unable to connect to the remote server
+
+Date : 3/29/2018    Time : 8:24 PM
+FtpWebResponse from IGS (final) service for date: 3/26/2018 returns exception: Unable to connect to the remote server
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (final) service for date: 3/26/2018 returns exception: Unable to connect to the remote server
+
+******************* IGS (final) service for date: 3/26/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (final) service for date: 3/27/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* IGS (final) service for date: 3/27/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (rapid) service for date: 3/27/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* IGS (rapid) service for date: 3/27/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (ultra-rapid) service for date: 3/27/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* IGS (ultra-rapid) service for date: 3/27/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (final) service for date: 3/25/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* IGS (final) service for date: 3/25/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (final GLONASS) service for date: 3/26/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* IGS (final GLONASS) service for date: 3/26/2018 is not availabile *******************
+
+Date : 3/29/2018    Time : 8:25 PM
+FtpWebResponse from IGS (final GLONASS) service for date: 3/27/2018 returns exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+******************* IGS (final GLONASS) service for date: 3/27/2018 is not availabile *******************
+
+
+
+----------------------------------------------------------
+        Diagnostic message log for file download          
+----------------------------------------------------------
+CRO1 3/26/2018 CORS (daily) : Start FileDownloader (33)
+VIKH 3/26/2018 CORS (daily) : Start FileDownloader (92)
+VITH 3/26/2018 CORS (daily) : Start FileDownloader (93)
+Precise 3/26/2018 IGS (rapid) : Start FileDownloader (102)
+Precise 3/25/2018 IGS (rapid) : Start FileDownloader (101)
+Broadcast GLONASS 3/26/2018 TRIMBLE (broadcast GLONASS) : Start FileDownloader (100)
+Broadcast 3/26/2018 TRIMBLE (broadcast) : Start FileDownloader (104)
+Precise 3/26/2018 IGS (rapid) : Downloaded (Archive file size 96767) -> Dispose the FileDownloader (102)
+
+Precise 3/25/2018 IGS (rapid) : Downloaded (Archive file size 96701) -> Dispose the FileDownloader (101)
+
+CRO1 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+CRO1 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (33)
+
+VIKH 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+VIKH 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (92)
+
+Broadcast GLONASS 3/26/2018 TRIMBLE (broadcast GLONASS) : Downloaded (Archive file size 78408) -> Dispose the FileDownloader (100)
+
+Precise 3/26/2018 IGS (ultra-rapid) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+Precise 3/26/2018 IGS (ultra-rapid) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (102)
+
+Broadcast 3/26/2018 TRIMBLE (broadcast) : Downloaded (Archive file size 55712) -> Dispose the FileDownloader (104)
+
+VITH 3/26/2018 CORS (daily) : Downloaded (Archive file size 367789) -> Dispose the FileDownloader (93)
+
+Precise 3/25/2018 IGS (ultra-rapid) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+Precise 3/25/2018 IGS (ultra-rapid) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (101)
+
+********CellValueChanged -> Run smart select********
+
+RRS2 3/26/2018 CORS (daily) : Start FileDownloader (82)
+OLVN 3/26/2018 UNAVCO (daily) : Start FileDownloader (53)
+RRS2 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+RRS2 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (82)
+
+OLVN 3/26/2018 UNAVCO (daily) : Downloaded (Archive file size 695443) -> Dispose the FileDownloader (53)
+
+********CellValueChanged -> Run smart select********
+
+CUPR 3/26/2018 CORS (daily) : Start FileDownloader (35)
+MIPR 3/26/2018 CORS (daily) : Start FileDownloader (50)
+CUPR 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+CUPR 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (35)
+
+MIPR 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+MIPR 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (50)
+
+********CellValueChanged -> Run smart select********
+
+CN42 3/26/2018 UNAVCO (daily) : Start FileDownloader (23)
+CN42 3/26/2018 UNAVCO (daily) : Downloaded (Archive file size 376533) -> Dispose the FileDownloader (23)
+
+********CellValueChanged -> Run smart select********
+
+********SelectExtraGpsStation -> Run smart select********
+
+ABVI 3/26/2018 CORS (daily) : Start FileDownloader (1)
+PRFJ 3/26/2018 CORS (daily) : Start FileDownloader (57)
+ABVI 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+ABVI 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (1)
+
+PRFJ 3/26/2018 CORS (daily) : Downloaded (Archive file size 791815) -> Dispose the FileDownloader (57)
+
+********CellValueChanged -> Run smart select********
+
+PRLP 3/26/2018 CORS (daily) : Start FileDownloader (61)
+PRLP 3/26/2018 CORS (daily) : Downloaded (Archive file size 765765) -> Dispose the FileDownloader (61)
+
+********CellValueChanged -> Run smart select********
+
+SMRT 3/26/2018 CORS (daily) : Start FileDownloader (83)
+SMRT 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+SMRT 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (83)
+
+********CellValueChanged -> Run smart select********
+
+ZSU1 3/26/2018 CORS (daily) : Start FileDownloader (95)
+ZSU1 3/26/2018 CORS (daily) : DownloadFileCallback WebException: ProtocolError The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+ZSU1 3/26/2018 CORS (daily) : FileNotFound (Archive file size 0) -> Dispose the FileDownloader (95)
+
+********CellValueChanged -> Run smart select********
+
+ZSU4 3/26/2018 CORS (daily) : Start FileDownloader (96)
+ZSU4 3/26/2018 CORS (daily) : Downloaded (Archive file size 402617) -> Dispose the FileDownloader (96)
+
+********CellValueChanged -> Run smart select********
+
+********SelectExtraGnssStation -> Run smart select********
+
+********No download is initiated during smart select process -> Run smart select********
+
+PRHL 3/26/2018 CORS (daily) : Start FileDownloader (59)
+PRHL 3/26/2018 CORS (daily) : Downloaded (Archive file size 777532) -> Dispose the FileDownloader (59)
+
+********CellValueChanged -> Run smart select********
+
+********Smart select completed********
+
+

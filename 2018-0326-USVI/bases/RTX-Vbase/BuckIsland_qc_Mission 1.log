@@ -1,0 +1,274 @@
+--------------------------------------------------------------------------------
+SQC SmartBase Quality Check Processor [Jan 21 2015]
+Copyright (c) 2006-2015 Applanix Corporation.  All rights reserved.
+Date : 03/29/18    Time : 20:25:47
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+_ProcessingParams->mCutOffRad              : 0.130900 
+_ProcessingParams->mMinSNR[0]              : 30.000000 
+_ProcessingParams->mMinSNR[1]              : 30.000000 
+_ProcessingParams->mMinSNR[2]              : 30.000000 
+_ProcessingParams->AntCorrType             : 2 
+_ProcessingParams->mUpdateRateReference    : 30.000000 
+_ProcessingParams->mUpdateRateVRS          : 1.000000 
+_ProcessingParams->mGPSWeekStartRefData    : 1994 
+_ProcessingParams->mGPSSecondsStartRefData : 86400.000000 
+_ProcessingParams->mGPSWeekEndRefData      : 1994 
+_ProcessingParams->mGPSSecondsEndRefData   : 172785.000000 
+_ProcessingParams->mGPSWeekStartVRSData    : 1994 
+_ProcessingParams->mGPSSecondsStartVRSData : 130620.000000 
+_ProcessingParams->mGPSWeekEndVRSData      : 1994 
+_ProcessingParams->mGPSSecondsEndVRSData   : 166619.000000 
+_ProcessingParams->mNbFreq                 : 2 
+_ProcessingParams->mPositioningMode        : 3 
+_ProcessingParams->mNIgnore                : 0 
+_ProcessingParams->mNumParameters          : 6 
+_ProcessingParams->mParameterValue[0]      : 1.000000 
+_ProcessingParams->mParameterKey[0]        : -interpolate 
+_ProcessingParams->mParameterValue[1]      : 0.050000 
+_ProcessingParams->mParameterKey[1]        : -Threshold 
+_ProcessingParams->mParameterValue[2]      : 0.000000 
+_ProcessingParams->mParameterKey[2]        : -ExtraDebug 
+_ProcessingParams->mParameterValue[3]      : 1.000000 
+_ProcessingParams->mParameterKey[3]        : -ApplanixAndDatFormatsOutput 
+_ProcessingParams->mParameterValue[4]      : 1.000000 
+_ProcessingParams->mParameterKey[4]        : -WriteVRSNetworkResidual 
+_ProcessingParams->mParameterValue[5]      : 1.000000 
+_ProcessingParams->mParameterKey[5]        : -ProcLogType 
+_CommonFilePath : C:\Program Files (x86)\Applanix\JLutesTarget-20150127\CommonFiles\
+_NumBrdEphFiles : 1
+_BrdEphemerisFiles[0] :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\Ephm0850.18n
+_NumPrcEphFiles : 0
+_NumRefStations :  7
+_ReferenceDataFiles[0]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\zsu40850.18o
+_ReferenceDataFiles[1]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\vith0850.18o
+_ReferenceDataFiles[2]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\prlp0850.18o
+_ReferenceDataFiles[3]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\prhl0850.18o
+_ReferenceDataFiles[4]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\prfj0850.18o
+_ReferenceDataFiles[5]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\olvn0850.18o
+_ReferenceDataFiles[6]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\cn420850.18o
+
+_RefStationInfo[0].mStationId       : ZSU4
+_RefStationInfo[0].mPointType       : 2
+_RefStationInfo[0].mPositionInfo[0] : 2462589.480215
+_RefStationInfo[0].mPositionInfo[1] : -5529372.116890
+_RefStationInfo[0].mPositionInfo[2] : 2003724.500810
+_RefStationInfo[0].maCov[0]         : 0.000000
+_RefStationInfo[0].maCov[1]         : 0.000000
+_RefStationInfo[0].maCov[2]         : 0.000000
+_RefStationInfo[0].maCov[3]         : 0.000000
+_RefStationInfo[0].maCov[4]         : 0.000000
+_RefStationInfo[0].maCov[5]         : 0.000000
+_RefStationInfo[0].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[0].mAntennaIdent    : 205
+_RefStationInfo[0].maAntennaName    : MPLWAAS+L5
+_RefStationInfo[0].mAntennaSerial   : 
+_RefStationInfo[0].maReceiverIdent  : 255
+_RefStationInfo[0].maReceiverName   : Unknown
+
+_RefStationInfo[1].mStationId       : VITH
+_RefStationInfo[1].mPointType       : 1
+_RefStationInfo[1].mPositionInfo[0] : 2562351.205096
+_RefStationInfo[1].mPositionInfo[1] : -5487279.862887
+_RefStationInfo[1].mPositionInfo[2] : 1994491.413110
+_RefStationInfo[1].maCov[0]         : 0.000000
+_RefStationInfo[1].maCov[1]         : 0.000000
+_RefStationInfo[1].maCov[2]         : 0.000000
+_RefStationInfo[1].maCov[3]         : 0.000000
+_RefStationInfo[1].maCov[4]         : 0.000000
+_RefStationInfo[1].maCov[5]         : 0.000000
+_RefStationInfo[1].mAntennaPhaseCenterHeightOverMarker   : 0.079700
+_RefStationInfo[1].mAntennaIdent    : 86
+_RefStationInfo[1].maAntennaName    : Zephyr Geodetic
+_RefStationInfo[1].mAntennaSerial   : 60073615
+_RefStationInfo[1].maReceiverIdent  : 29
+_RefStationInfo[1].maReceiverName   : NetRS
+
+_RefStationInfo[2].mStationId       : PRLP
+_RefStationInfo[2].mPointType       : 2
+_RefStationInfo[2].mPositionInfo[0] : 2478062.257539
+_RefStationInfo[2].mPositionInfo[1] : -5531555.113865
+_RefStationInfo[2].mPositionInfo[2] : 1978907.071512
+_RefStationInfo[2].maCov[0]         : 0.000000
+_RefStationInfo[2].maCov[1]         : 0.000000
+_RefStationInfo[2].maCov[2]         : 0.000000
+_RefStationInfo[2].maCov[3]         : 0.000000
+_RefStationInfo[2].maCov[4]         : 0.000000
+_RefStationInfo[2].maCov[5]         : 0.000000
+_RefStationInfo[2].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[2].mAntennaIdent    : 265
+_RefStationInfo[2].maAntennaName    : Zephyr Geodetic 2 Ro
+_RefStationInfo[2].mAntennaSerial   : 30520301
+_RefStationInfo[2].maReceiverIdent  : 45
+_RefStationInfo[2].maReceiverName   : NetR5
+
+_RefStationInfo[3].mStationId       : PRHL
+_RefStationInfo[3].mPointType       : 2
+_RefStationInfo[3].mPositionInfo[0] : 2447857.485050
+_RefStationInfo[3].mPositionInfo[1] : -5537874.085291
+_RefStationInfo[3].mPositionInfo[2] : 1998337.393506
+_RefStationInfo[3].maCov[0]         : 0.000000
+_RefStationInfo[3].maCov[1]         : 0.000000
+_RefStationInfo[3].maCov[2]         : 0.000000
+_RefStationInfo[3].maCov[3]         : 0.000000
+_RefStationInfo[3].maCov[4]         : 0.000000
+_RefStationInfo[3].maCov[5]         : 0.000000
+_RefStationInfo[3].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[3].mAntennaIdent    : 265
+_RefStationInfo[3].maAntennaName    : Zephyr Geodetic 2 Ro
+_RefStationInfo[3].mAntennaSerial   : 5000116352
+_RefStationInfo[3].maReceiverIdent  : 45
+_RefStationInfo[3].maReceiverName   : NetR5
+
+_RefStationInfo[4].mStationId       : PRFJ
+_RefStationInfo[4].mPointType       : 2
+_RefStationInfo[4].mPositionInfo[0] : 2497071.865232
+_RefStationInfo[4].mPositionInfo[1] : -5517914.354937
+_RefStationInfo[4].mPositionInfo[2] : 1992695.560737
+_RefStationInfo[4].maCov[0]         : 0.000000
+_RefStationInfo[4].maCov[1]         : 0.000000
+_RefStationInfo[4].maCov[2]         : 0.000000
+_RefStationInfo[4].maCov[3]         : 0.000000
+_RefStationInfo[4].maCov[4]         : 0.000000
+_RefStationInfo[4].maCov[5]         : 0.000000
+_RefStationInfo[4].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[4].mAntennaIdent    : 265
+_RefStationInfo[4].maAntennaName    : Zephyr Geodetic 2 Ro
+_RefStationInfo[4].mAntennaSerial   : 2642117206
+_RefStationInfo[4].maReceiverIdent  : 76
+_RefStationInfo[4].maReceiverName   : NetR9
+
+_RefStationInfo[5].mStationId       : OLVN
+_RefStationInfo[5].mPointType       : 2
+_RefStationInfo[5].mPositionInfo[0] : 2846655.298389
+_RefStationInfo[5].mPositionInfo[1] : -5405501.342909
+_RefStationInfo[5].mPositionInfo[2] : 1826412.397420
+_RefStationInfo[5].maCov[0]         : 0.000000
+_RefStationInfo[5].maCov[1]         : 0.000000
+_RefStationInfo[5].maCov[2]         : 0.000000
+_RefStationInfo[5].maCov[3]         : 0.000000
+_RefStationInfo[5].maCov[4]         : 0.000000
+_RefStationInfo[5].maCov[5]         : 0.000000
+_RefStationInfo[5].mAntennaPhaseCenterHeightOverMarker   : 0.008300
+_RefStationInfo[5].mAntennaIdent    : 197
+_RefStationInfo[5].maAntennaName    : GNSS Choke w/SCIT Do
+_RefStationInfo[5].mAntennaSerial   : 5037353954
+_RefStationInfo[5].maReceiverIdent  : 76
+_RefStationInfo[5].maReceiverName   : NetR9
+
+_RefStationInfo[6].mStationId       : CN42
+_RefStationInfo[6].mPointType       : 2
+_RefStationInfo[6].mPositionInfo[0] : 2470273.161094
+_RefStationInfo[6].mPositionInfo[1] : -5731025.936193
+_RefStationInfo[6].mPositionInfo[2] : 1312277.886678
+_RefStationInfo[6].maCov[0]         : 0.000000
+_RefStationInfo[6].maCov[1]         : 0.000000
+_RefStationInfo[6].maCov[2]         : 0.000000
+_RefStationInfo[6].maCov[3]         : 0.000000
+_RefStationInfo[6].maCov[4]         : 0.000000
+_RefStationInfo[6].maCov[5]         : 0.000000
+_RefStationInfo[6].mAntennaPhaseCenterHeightOverMarker   : 0.008300
+_RefStationInfo[6].mAntennaIdent    : 197
+_RefStationInfo[6].maAntennaName    : GNSS Choke w/SCIT Do
+_RefStationInfo[6].mAntennaSerial   : 5311354631
+_RefStationInfo[6].maReceiverIdent  : 76
+_RefStationInfo[6].maReceiverName   : NetR9
+
+_VRSPosition[0] : 0.000000
+_VRSPosition[1] : 0.000000
+_VRSPosition[2] : 0.000000
+_TrajectoryFile : (null)
+_OutputFileType : 0
+_VRSStationIndex: 0
+_OutDataFile    : C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\Mission 1\Proc\None_Mission 1.out
+--------------------------------------------------------------------------------
+SmartBase Quality Check processing started
+QCND PROCESSING MESSAGE: (Warning) THREE days of precise ephemeris should be provided.
+QCND PROCESSING MESSAGE: Using antenna model:          TRM41249.00  for Station:     VITH
+QCND PROCESSING MESSAGE: Using antenna model:      MPL_WAAS_2225NW  for Station:     ZSU4
+QCND PROCESSING MESSAGE: Using antenna model:          TRM57971.00  for Station:     PRLP
+QCND PROCESSING MESSAGE: Using antenna model:          TRM57971.00  for Station:     PRHL
+QCND PROCESSING MESSAGE: Using antenna model:          TRM57971.00  for Station:     PRFJ
+QCND PROCESSING MESSAGE: Using antenna model: TRM59800.00     SCIT  for Station:     OLVN
+QCND PROCESSING MESSAGE: Using antenna model: TRM59800.00     SCIT  for Station:     CN42
+QCND PROCESSING MESSAGE: (Warning) 1994   86400: SIMULTANEOUS CYCLE-SLIP at VITH    
+QCND PROCESSING MESSAGE: (Warning) 1994   86400: SIMULTANEOUS CYCLE-SLIP at ZSU4    
+QCND PROCESSING MESSAGE: (Warning) 1994   86400: SIMULTANEOUS CYCLE-SLIP at PRLP    
+QCND PROCESSING MESSAGE: (Warning) 1994   86400: SIMULTANEOUS CYCLE-SLIP at PRHL    
+QCND PROCESSING MESSAGE: (Warning) 1994   86400: SIMULTANEOUS CYCLE-SLIP at PRFJ    
+QCND PROCESSING MESSAGE: (Warning) 1994   86400: SIMULTANEOUS CYCLE-SLIP at OLVN    
+QCND PROCESSING MESSAGE: (Warning) 1994   86430: SIMULTANEOUS CYCLE-SLIP at VITH    
+QCND PROCESSING MESSAGE: (Warning) 1994   86430: SIMULTANEOUS CYCLE-SLIP at ZSU4    
+QCND PROCESSING MESSAGE: (Warning) 1994   86430: SIMULTANEOUS CYCLE-SLIP at PRLP    
+QCND PROCESSING MESSAGE: (Warning) 1994   86430: SIMULTANEOUS CYCLE-SLIP at PRHL    
+QCND PROCESSING MESSAGE: (Warning) 1994   86430: SIMULTANEOUS CYCLE-SLIP at PRFJ    
+QCND PROCESSING MESSAGE: (Warning) 1994   86430: SIMULTANEOUS CYCLE-SLIP at OLVN    
+QCND PROCESSING MESSAGE: (Warning) 1994   86460: SIMULTANEOUS CYCLE-SLIP at VITH    
+QCND PROCESSING MESSAGE: (Warning) 1994   86460: SIMULTANEOUS CYCLE-SLIP at ZSU4    
+QCND PROCESSING MESSAGE: (Warning) 1994   86460: SIMULTANEOUS CYCLE-SLIP at PRLP    
+QCND PROCESSING MESSAGE: (Warning) 1994   86460: SIMULTANEOUS CYCLE-SLIP at PRHL    
+QCND PROCESSING MESSAGE: (Warning) 1994   86460: SIMULTANEOUS CYCLE-SLIP at PRFJ    
+QCND PROCESSING MESSAGE: (Warning) 1994   86460: SIMULTANEOUS CYCLE-SLIP at OLVN    
+QCND PROCESSING MESSAGE: (Warning) 1994   86490: SIMULTANEOUS CYCLE-SLIP at VITH    
+QCND PROCESSING MESSAGE: (Warning) 1994   86490: SIMULTANEOUS CYCLE-SLIP at ZSU4    
+QCND PROCESSING MESSAGE: (Warning) 1994   86490: SIMULTANEOUS CYCLE-SLIP at PRLP    
+QCND PROCESSING MESSAGE: (Warning) 1994   86490: SIMULTANEOUS CYCLE-SLIP at PRHL    
+QCND PROCESSING MESSAGE: (Warning) 1994   86490: SIMULTANEOUS CYCLE-SLIP at PRFJ    
+QCND PROCESSING MESSAGE: (Warning) 1994   86490: SIMULTANEOUS CYCLE-SLIP at OLVN    
+QCND PROCESSING MESSAGE: (Warning) 1994   86520: SIMULTANEOUS CYCLE-SLIP at PRLP    
+
+
+--------------------------------------------------------------------------------
+        Reference Station Raw Data Analysis
+--------------------------------------------------------------------------------
+
+Station | Time Span |  Start time  |   End Time  | Total |  Max |  Min | Unrepaired |      Simul    | Data | MinNum | MaxNum | Min | Max 
+  ID    |   (sec)   |  week : sec  |  week : sec |  Gap  |  Gap |  Gap |     CS     | unrepaired_CS | rate |  Sats  |  Sats  | PDOP| PDOP
+  VITH    86370.0     1994: 86400    1994:172770     0       0       0     1039             4        30.0      7       12      1.3   2.7
+  ZSU4    86370.0     1994: 86400    1994:172770     0       0       0     2351             4        30.0      8       14      1.1   2.6
+  PRLP    86370.0     1994: 86400    1994:172770     0       0       0      562             5        30.0     14       18      1.1   2.6
+  PRHL    86370.0     1994: 86400    1994:172770     0       0       0      662             4        30.0     14       18      1.1   2.6
+  PRFJ    86370.0     1994: 86400    1994:172770     0       0       0      388             4        30.0     13       18      1.1   3.7
+  OLVN    86385.0     1994: 86400    1994:172785     0       0       0      715             4        15.0      8       14      1.1   2.7
+  CN42    86385.0     1994: 86400    1994:172785     0       0       0        0             0        15.0     1000        0     1000.0   0.0
+
+
+--------------------------------------------------------------------------------
+        Reference Station QCND Processing Results
+--------------------------------------------------------------------------------
+
+Station |     Status     | 3DError| Process   | Process |  Start time  |   End Time  | Mean Sats  | Solution | No Solution | Station |    Max  
+  ID    |                |   (m)  | timespan  | Interval|  week : sec  |  week : sec | per Epoch  |  Epochs  |    Epochs   |  Reset  |   Rx-clk
+  VITH          CONTROL    0.000      23.9         30      1994: 86790   1994:172770       8.9        2866           0          0      -7.389e-011
+  ZSU4               OK    0.019      23.9         30      1994: 86790   1994:172770       9.7        2866           0          0      +1.512e-011
+  PRLP               OK    0.033      23.9         30      1994: 86820   1994:172770       9.7        2865           0          0      -2.486e-011
+  PRHL               OK    0.026      23.9         30      1994: 86790   1994:172770       9.5        2866           0          0      -2.390e-011
+  PRFJ               OK    0.035      23.9         30      1994: 86790   1994:172770       9.6        2866           0          0      +2.185e-011
+  OLVN               OK    0.040      23.9         30      1994: 86790   1994:172770       9.5        2866           0          0      +2.499e-011
+  CN42    NOT PROCESSED    0.000       0.0         30         0:     0      0:     0      -1.$           0           0          0      +0.000e+000
+--------------------------------------------------------------------------------
+Termination status : Normal
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+        Reference Station Network Adjustment
+--------------------------------------------------------------------------------
+Station             Input Coords        Status              Horizontal          Vertical            Total               Time Span           Output Coords       
+ZSU4                Original            OK                  0.010 m             0.015 m             0.019 m             23.88 h             Original            
+VITH                Control             Control             0.000 m             0.000 m             0.000 m             23.88 h             Control             
+PRLP                Original            OK                  0.025 m             0.022 m             0.033 m             23.88 h             Original            
+PRHL                Original            OK                  0.018 m             0.019 m             0.026 m             23.88 h             Original            
+PRFJ                Original            OK                  0.024 m             0.025 m             0.035 m             23.88 h             Original            
+OLVN                Original            OK                  0.033 m             0.021 m             0.040 m             23.88 h             Original            
+CN42                Original            Not Processed       N/A                 N/A                 N/A                 0.00 h              Disabled            
+--------------------------------------------------------------------------------
+        Reference Station Adjusted Coordinates
+--------------------------------------------------------------------------------
+Station             Original Coordinates                                        Adjusted Coordinates                                        
+                    Latitude            Longitude           Altitude            Latitude            Longitude           Altitude            
+ZSU4                N18°25'52.80945"    W65°59'36.51501"    -28.539 m           N18°25'52.80978"    W65°59'36.51496"    -28.555 m           
+VITH                N18°20'35.99528"    W64°58'09.16537"    4.419 m             N18°20'35.99528"    W64°58'09.16537"    4.419 m             
+PRLP                N18°11'41.64424"    W65°52'05.74506"    57.005 m            N18°11'41.64482"    W65°52'05.74564"    56.983 m            
+PRHL                N18°22'48.10760"    W66°09'12.80690"    -24.412 m           N18°22'48.10810"    W66°09'12.80720"    -24.431 m           
+PRFJ                N18°19'34.75356"    W65°39'05.00322"    -22.642 m           N18°19'34.75385"    W65°39'05.00398"    -22.667 m           
+OLVN                N16°45'01.45379"    W62°13'39.81919"    40.893 m            N16°45'01.45476"    W62°13'39.81868"    40.872 m            
+CN42                N11°57'09.54082"    W66°40'56.14779"    -3.619 m            N11°57'09.54082"    W66°40'56.14779"    -3.619 m            

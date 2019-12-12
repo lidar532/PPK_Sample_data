@@ -1,0 +1,91 @@
+PROGRAM = datasheet95, VERSION = 8.10
+1        National Geodetic Survey,   Retrieval Date = NOVEMBER 17, 2016
+ DI2149 ***********************************************************************
+ DI2149  CORS        -  This is a GPS Continuously Operating Reference Station.
+ DI2149  DESIGNATION -  ST. THOMAS CORS ARP
+ DI2149  CORS_ID     -  VITH
+ DI2149  PID         -  DI2149
+ DI2149  STATE/COUNTY-  VQ/ST THOMAS
+ DI2149  COUNTRY     -  US
+ DI2149  USGS QUAD   -  CENTRAL SAINT THOMAS (1982)
+ DI2149
+ DI2149                         *CURRENT SURVEY CONTROL
+ DI2149  ______________________________________________________________________
+ DI2149* NAD 83(2011) POSITION- 18 20 35.97813(N) 064 58 09.17131(W)   ADJUSTED  
+ DI2149* NAD 83(2011) ELLIP HT-     6.380 (meters)        (08/??/11)   ADJUSTED
+ DI2149* NAD 83(2011) EPOCH   -  2010.00
+ DI2149* LMSL    ORTHO HEIGHT -          **(meters)           **(feet)           
+ DI2149  ______________________________________________________________________
+ DI2149  GEOID HEIGHT    -        -42.199 (meters)                     GEOID12B
+ DI2149  NAD 83(2011) X  -  2,562,351.851 (meters)                     COMP
+ DI2149  NAD 83(2011) Y  - -5,487,281.659 (meters)                     COMP
+ DI2149  NAD 83(2011) Z  -  1,994,491.488 (meters)                     COMP
+ DI2149
+ DI2149  Network accuracy estimates per FGDC Geospatial Positioning Accuracy
+ DI2149  Standards:                                                         
+ DI2149         FGDC (95% conf, cm)     Standard deviation (cm)     CorrNE 
+ DI2149            Horiz  Ellip           SD_N   SD_E   SD_h      (unitless)
+ DI2149  -------------------------------------------------------------------
+ DI2149  NETWORK    1.78   6.40           0.66   0.79   3.26     -0.05798100
+ DI2149  -------------------------------------------------------------------
+ DI2149
+ DI2149
+ DI2149.The coordinates were established by GPS observations
+ DI2149.and adjusted by the National Geodetic Survey in August 2011.
+ DI2149
+ DI2149.NAD 83(2011) refers to NAD 83 coordinates where the reference frame has 
+ DI2149.been affixed to the stable North American Tectonic Plate. 
+ DI2149
+ DI2149.The coordinates are valid at the epoch date displayed above
+ DI2149.which is a decimal equivalence of Year/Month/Day.
+ DI2149
+ DI2149.Significant digits in the geoid height do not necessarily reflect accuracy.
+ DI2149.GEOID12B height accuracy estimate available here.
+ DI2149
+ DI2149.The PID for the CORS L1 Phase Center is DI2150.
+ DI2149
+ DI2149.The XYZ, and position/ellipsoidal ht. are equivalent.
+ DI2149
+ DI2149.The ellipsoidal height was determined by GPS observations
+ DI2149.and is referenced to NAD 83.
+ DI2149
+ DI2149. The following values were computed from the NAD 83(2011) position.
+ DI2149
+ DI2149;                    North         East     Units Scale Factor Converg.
+ DI2149;SPC PRVI     -   257,065.528   354,752.368   MT  0.99999578   +0 27 29.2
+ DI2149;UTM  20      - 2,029,296.327   291,907.886   MT  1.00013536   -0 37 11.8
+ DI2149
+ DI2149!             -  Elev Factor  x  Scale Factor =   Combined Factor
+ DI2149!SPC PRVI     -   0.99999900  x   0.99999578  =   0.99999478
+ DI2149!UTM  20      -   0.99999900  x   1.00013536  =   1.00013436
+ DI2149
+ DI2149_U.S. NATIONAL GRID SPATIAL ADDRESS: 20QKF9190729296(NAD 83)
+ DI2149
+ DI2149                          SUPERSEDED SURVEY CONTROL
+ DI2149
+ DI2149  NAD 83(CORS)-  18 20 35.97708(N)    064 58 09.17651(W) AD(2002.00) c
+ DI2149  ELLIP H (10/??/06)    6.366  (m)                       GP(2002.00) c c
+ DI2149
+ DI2149.Superseded values are not recommended for survey control.
+ DI2149
+ DI2149.NGS no longer adjusts projects to the PR datum.
+ DI2149.See file dsdata.txt to determine how the superseded data were derived.
+ DI2149
+ DI2149_MARKER: STATION IS THE ANTENNA REFERENCE POINT OF THE GPS ANTENNA
+ DI2149
+ DI2149                          STATION DESCRIPTION
+ DI2149
+ DI2149'DESCRIBED BY NATIONAL GEODETIC SURVEY 2011
+ DI2149'STATION IS A GPS CORS.  LATEST INFORMATION INCLUDING POSITIONS AND
+ DI2149'VELOCITIES ARE AVAILABLE IN THE COORDINATE AND LOG FILES ACCESSIBLE
+ DI2149'BY ANONYMOUS FTP OR THE WORLDWIDE WEB.
+ DI2149'   ftp://cors.ngs.noaa.gov/cors/README.txt
+ DI2149'   ftp://cors.ngs.noaa.gov/cors/coord/coord_08 
+ DI2149'   ftp://cors.ngs.noaa.gov/cors/station_log 
+ DI2149'   http://geodesy.noaa.gov/CORS
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:01
+
+
+

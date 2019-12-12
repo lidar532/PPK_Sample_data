@@ -1,0 +1,846 @@
+--------------------------------------------------------------------------------
+ASB™ Applanix SmartBase Processor [Jan 21 2015]
+Copyright (c) 2006-2015 Applanix Corporation.  All rights reserved.
+Date : 03/29/18    Time : 20:25:55
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+_ProcessingParams->mCutOffRad              : 0.130900 
+_ProcessingParams->mMinSNR[0]              : 30.000000 
+_ProcessingParams->mMinSNR[1]              : 30.000000 
+_ProcessingParams->mMinSNR[2]              : 30.000000 
+_ProcessingParams->AntCorrType             : 2 
+_ProcessingParams->mUpdateRateReference    : 30.000000 
+_ProcessingParams->mUpdateRateVRS          : 1.000000 
+_ProcessingParams->mGPSWeekStartRefData    : 1994 
+_ProcessingParams->mGPSSecondsStartRefData : 86400.000000 
+_ProcessingParams->mGPSWeekEndRefData      : 1994 
+_ProcessingParams->mGPSSecondsEndRefData   : 172785.000000 
+_ProcessingParams->mGPSWeekStartVRSData    : 1994 
+_ProcessingParams->mGPSSecondsStartVRSData : 130620.000000 
+_ProcessingParams->mGPSWeekEndVRSData      : 1994 
+_ProcessingParams->mGPSSecondsEndVRSData   : 166619.000000 
+_ProcessingParams->mNbFreq                 : 2 
+_ProcessingParams->mPositioningMode        : 3 
+_ProcessingParams->mNIgnore                : 0 
+_ProcessingParams->mNumParameters          : 6 
+_ProcessingParams->mParameterValue[0]      : 1.000000 
+_ProcessingParams->mParameterKey[0]        : -interpolate 
+_ProcessingParams->mParameterValue[1]      : 0.050000 
+_ProcessingParams->mParameterKey[1]        : -Threshold 
+_ProcessingParams->mParameterValue[2]      : 0.000000 
+_ProcessingParams->mParameterKey[2]        : -ExtraDebug 
+_ProcessingParams->mParameterValue[3]      : 1.000000 
+_ProcessingParams->mParameterKey[3]        : -ApplanixAndDatFormatsOutput 
+_ProcessingParams->mParameterValue[4]      : 1.000000 
+_ProcessingParams->mParameterKey[4]        : -WriteVRSNetworkResidual 
+_ProcessingParams->mParameterValue[5]      : 1.000000 
+_ProcessingParams->mParameterKey[5]        : -ProcLogType 
+_CommonFilePath : C:\Program Files (x86)\Applanix\JLutesTarget-20150127\CommonFiles\
+_NumBrdEphFiles : 2
+_BrdEphemerisFiles[0] :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\Ephm0850.18n
+_BrdEphemerisFiles[1] :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\Ephm0850.18g
+_NumPrcEphFiles : 0
+_NumRefStations :  6
+_ReferenceDataFiles[0]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\olvn0850.18o
+_ReferenceDataFiles[1]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\prhl0850.18o
+_ReferenceDataFiles[2]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\zsu40850.18o
+_ReferenceDataFiles[3]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\prlp0850.18o
+_ReferenceDataFiles[4]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\vith0850.18o
+_ReferenceDataFiles[5]   :  C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\prfj0850.18o
+
+_RefStationInfo[0].mStationId       : OLVN
+_RefStationInfo[0].mPointType       : 2
+_RefStationInfo[0].mPositionInfo[0] : 2846655.298389
+_RefStationInfo[0].mPositionInfo[1] : -5405501.342909
+_RefStationInfo[0].mPositionInfo[2] : 1826412.397420
+_RefStationInfo[0].maCov[0]         : 0.000000
+_RefStationInfo[0].maCov[1]         : 0.000000
+_RefStationInfo[0].maCov[2]         : 0.000000
+_RefStationInfo[0].maCov[3]         : 0.000000
+_RefStationInfo[0].maCov[4]         : 0.000000
+_RefStationInfo[0].maCov[5]         : 0.000000
+_RefStationInfo[0].mAntennaPhaseCenterHeightOverMarker   : 0.008300
+_RefStationInfo[0].mAntennaIdent    : 197
+_RefStationInfo[0].maAntennaName    : GNSS Choke w/SCIT Do
+_RefStationInfo[0].mAntennaSerial   : 5037353954
+_RefStationInfo[0].maReceiverIdent  : 76
+_RefStationInfo[0].maReceiverName   : NetR9
+
+_RefStationInfo[1].mStationId       : PRHL
+_RefStationInfo[1].mPointType       : 2
+_RefStationInfo[1].mPositionInfo[0] : 2447857.485050
+_RefStationInfo[1].mPositionInfo[1] : -5537874.085291
+_RefStationInfo[1].mPositionInfo[2] : 1998337.393506
+_RefStationInfo[1].maCov[0]         : 0.000000
+_RefStationInfo[1].maCov[1]         : 0.000000
+_RefStationInfo[1].maCov[2]         : 0.000000
+_RefStationInfo[1].maCov[3]         : 0.000000
+_RefStationInfo[1].maCov[4]         : 0.000000
+_RefStationInfo[1].maCov[5]         : 0.000000
+_RefStationInfo[1].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[1].mAntennaIdent    : 265
+_RefStationInfo[1].maAntennaName    : Zephyr Geodetic 2 Ro
+_RefStationInfo[1].mAntennaSerial   : 5000116352
+_RefStationInfo[1].maReceiverIdent  : 45
+_RefStationInfo[1].maReceiverName   : NetR5
+
+_RefStationInfo[2].mStationId       : ZSU4
+_RefStationInfo[2].mPointType       : 2
+_RefStationInfo[2].mPositionInfo[0] : 2462589.480215
+_RefStationInfo[2].mPositionInfo[1] : -5529372.116890
+_RefStationInfo[2].mPositionInfo[2] : 2003724.500810
+_RefStationInfo[2].maCov[0]         : 0.000000
+_RefStationInfo[2].maCov[1]         : 0.000000
+_RefStationInfo[2].maCov[2]         : 0.000000
+_RefStationInfo[2].maCov[3]         : 0.000000
+_RefStationInfo[2].maCov[4]         : 0.000000
+_RefStationInfo[2].maCov[5]         : 0.000000
+_RefStationInfo[2].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[2].mAntennaIdent    : 205
+_RefStationInfo[2].maAntennaName    : MPLWAAS+L5
+_RefStationInfo[2].mAntennaSerial   : 
+_RefStationInfo[2].maReceiverIdent  : 255
+_RefStationInfo[2].maReceiverName   : Unknown
+
+_RefStationInfo[3].mStationId       : PRLP
+_RefStationInfo[3].mPointType       : 2
+_RefStationInfo[3].mPositionInfo[0] : 2478062.257539
+_RefStationInfo[3].mPositionInfo[1] : -5531555.113865
+_RefStationInfo[3].mPositionInfo[2] : 1978907.071512
+_RefStationInfo[3].maCov[0]         : 0.000000
+_RefStationInfo[3].maCov[1]         : 0.000000
+_RefStationInfo[3].maCov[2]         : 0.000000
+_RefStationInfo[3].maCov[3]         : 0.000000
+_RefStationInfo[3].maCov[4]         : 0.000000
+_RefStationInfo[3].maCov[5]         : 0.000000
+_RefStationInfo[3].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[3].mAntennaIdent    : 265
+_RefStationInfo[3].maAntennaName    : Zephyr Geodetic 2 Ro
+_RefStationInfo[3].mAntennaSerial   : 30520301
+_RefStationInfo[3].maReceiverIdent  : 45
+_RefStationInfo[3].maReceiverName   : NetR5
+
+_RefStationInfo[4].mStationId       : VITH
+_RefStationInfo[4].mPointType       : 2
+_RefStationInfo[4].mPositionInfo[0] : 2562351.205096
+_RefStationInfo[4].mPositionInfo[1] : -5487279.862887
+_RefStationInfo[4].mPositionInfo[2] : 1994491.413110
+_RefStationInfo[4].maCov[0]         : 0.000000
+_RefStationInfo[4].maCov[1]         : 0.000000
+_RefStationInfo[4].maCov[2]         : 0.000000
+_RefStationInfo[4].maCov[3]         : 0.000000
+_RefStationInfo[4].maCov[4]         : 0.000000
+_RefStationInfo[4].maCov[5]         : 0.000000
+_RefStationInfo[4].mAntennaPhaseCenterHeightOverMarker   : 0.079700
+_RefStationInfo[4].mAntennaIdent    : 86
+_RefStationInfo[4].maAntennaName    : Zephyr Geodetic
+_RefStationInfo[4].mAntennaSerial   : 60073615
+_RefStationInfo[4].maReceiverIdent  : 29
+_RefStationInfo[4].maReceiverName   : NetRS
+
+_RefStationInfo[5].mStationId       : PRFJ
+_RefStationInfo[5].mPointType       : 2
+_RefStationInfo[5].mPositionInfo[0] : 2497071.865232
+_RefStationInfo[5].mPositionInfo[1] : -5517914.354937
+_RefStationInfo[5].mPositionInfo[2] : 1992695.560737
+_RefStationInfo[5].maCov[0]         : 0.000000
+_RefStationInfo[5].maCov[1]         : 0.000000
+_RefStationInfo[5].maCov[2]         : 0.000000
+_RefStationInfo[5].maCov[3]         : 0.000000
+_RefStationInfo[5].maCov[4]         : 0.000000
+_RefStationInfo[5].maCov[5]         : 0.000000
+_RefStationInfo[5].mAntennaPhaseCenterHeightOverMarker   : 0.000000
+_RefStationInfo[5].mAntennaIdent    : 265
+_RefStationInfo[5].maAntennaName    : Zephyr Geodetic 2 Ro
+_RefStationInfo[5].mAntennaSerial   : 2642117206
+_RefStationInfo[5].maReceiverIdent  : 76
+_RefStationInfo[5].maReceiverName   : NetR9
+
+_VRSPosition[0] : 2606182.786080
+_VRSPosition[1] : -5488426.751575
+_VRSPosition[2] : 1934412.454373
+_TrajectoryFile : C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\Mission 1\Extract\gnss_nav_pri_vrs_Mission 1.dat
+_OutputFileType : 6
+_VRSStationIndex: 5
+_OutDataFile    : C:\Projects\SBCAutomater\bin\Release\Processing\03-29-2018-20-21-29-BuckIsland\smartBaseCloudBatch\smartBaseCloudProject\DataArchive\obs_base_ASB.dat
+--------------------------------------------------------------------------------
+Applanix SmartBase (ASB™) processing started
+VRS Processing Message: *WARNING* Require 3-days Precise Ephemeris
+VRS Processing Message: Using NGS antenna model. 
+VRS Processing Message: Station     OLVN : Receiver NetR9 using "45 -- TRIMBLE NETR5.rnm" 
+VRS Processing Message: Station     PRHL : Receiver NetR5 using "45 -- TRIMBLE NETR5.rnm" 
+VRS Processing Message: Receiver Noise Model for Unknown NOT available, using DEFAULT
+VRS Processing Message: Station     ZSU4 : Receiver Unknown using "Default.rnm" 
+VRS Processing Message: Station     PRLP : Receiver NetR5 using "45 -- TRIMBLE NETR5.rnm" 
+VRS Processing Message: Station     VITH : Receiver NetRS using "29 -- TRIMBLE NETRS.rnm" 
+VRS Processing Message: Station     PRFJ : Receiver NetR9 using "45 -- TRIMBLE NETR5.rnm" 
+VRS Processing Message: *RDA* PRFJ     (1994:  86820)  GLN07/+05 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  86820)  GLN07/+05 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  87000)  GPS18     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  87420)  GPS18     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  88815)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  88890)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  88905)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  89910)  GPS02     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  90075)  GPS23     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  90180)  GPS09     L2CM    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994:  90300)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  90510)  GPS02     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994:  90570)  GPS11     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  90570)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  90600)  GPS09     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91110)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91110)  GPS01     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91230)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91230)  GPS01     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91320)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91320)  GPS01     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  91470)  GLN10/-07 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  91470)  GLN10/-07 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994:  91620)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  91800)  GPS22     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  92070)  GPS23     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93210)  GLN23/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93210)  GLN23/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93240)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93240)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93330)  GLN23/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93330)  GLN23/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93600)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  93600)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  94380)  GPS30     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  94395)  GPS30     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994:  94665)  GPS30     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994:  94740)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  94770)  GLN23/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  94770)  GLN23/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  94860)  GLN21/+04 L1GLOCA PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95010)  GLN06/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95010)  GLN06/-04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95010)  GLN06/-04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95100)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95100)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95220)  GLN06/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95220)  GLN06/-04 L1GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95310)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95310)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95310)  GLN01/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994:  95370)  GLN01/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95520)  GLN06/-04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  95520)  GLN06/-04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95640)  GLN06/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95640)  GLN06/-04 L1GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95700)  GLN23/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  95700)  GLN23/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  97020)  GLN12/-01 L1GLOP  PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* OLVN     (1994:  97230)  GPS12     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  97410)  GPS23     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  97860)  GLN13/-02 L2GLOP  PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* PRHL     (1994:  98580)  GLN21/+04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  98610)  GLN21/+04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994:  98610)  GLN21/+04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  98670)  GLN21/+04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994:  98670)  GLN21/+04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 100140)  GPS28     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 100350)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 100350)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 100440)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100470)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100500)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100530)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100560)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100590)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRFJ     (1994: 100590)  GPS28     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 100620)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100650)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRFJ     (1994: 100650)  GPS28     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 100680)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100710)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 100740)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRFJ     (1994: 100740)  GPS28     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 100770)  GPS28                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* OLVN     (1994: 101160)  GPS13     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 101175)  GPS13     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 101220)  GPS13     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 101235)  GPS13     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 101340)  GPS13     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 101490)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 101490)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 101610)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 101760)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 101760)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 101820)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 101850)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 101880)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 101910)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 101940)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 101970)  GLN24/+02 L1GLOCA PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 101970)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 102000)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102000)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102030)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 102060)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 102090)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102090)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102120)  GLN24/+02               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 102150)  GLN24/+02 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 102210)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 102210)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 102270)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 102270)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102270)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102270)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102360)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102360)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 102510)  GLN24/+02 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102750)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102750)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102990)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 102990)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 103440)  GLN24/+02 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 103710)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 103710)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 103830)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 103830)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 103980)  GPS25     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 104190)  GPS25                   BAD_SPP_SAT
+VRS Processing Message: *RDA* ZSU4     (1994: 104190)  GPS25     L1CA    CODE  BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 104190)  GPS25     L2P     CODE  BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 104190)  GPS25     L1CA    PHASE BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 104190)  GPS25     L2P     PHASE BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 104220)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 104220)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 106530)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 107460)  GPS20     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 107505)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 107745)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 108900)  GLN03/+05 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 108900)  GLN03/+05 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 108900)  GLN03/+05 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 110010)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 110010)  GPS25     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 110010)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 110790)  GPS19     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 111675)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 111690)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 111705)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 111840)  GPS24     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 111855)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 111870)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 111885)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 111990)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112020)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112050)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112080)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* OLVN     (1994: 112110)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 112110)  GPS24     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 112110)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112140)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112170)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112200)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112230)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112260)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112290)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112320)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 112350)  GPS24                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRFJ     (1994: 114660)  GLN01/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 114660)  GLN01/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 115050)  GPS21     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 115260)  GLN23/+03 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 115260)  GLN23/+03 L1GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 115290)  GLN23/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 115290)  GLN23/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 115590)  GLN13/-02 L1GLOCA PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* PRFJ     (1994: 116760)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 116760)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 118890)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 118890)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 119100)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 119100)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 119130)  GLN24/+02 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 119160)  GLN24/+02 L1GLOCA PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 119670)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 119670)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 119730)  GLN24/+02 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 119820)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 119820)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 120030)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 120030)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120150)  GPS12     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 120240)  GLN24/+02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 120240)  GLN24/+02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120330)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120330)  GPS02     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120345)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120345)  GPS02     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120495)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120525)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120540)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120570)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120585)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 120600)  GPS02     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 121020)  GPS12     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 122550)  GPS13     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 123015)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 123390)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 123450)  GPS25     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 123690)  GLN13/-02 L1GLOP  PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* PRFJ     (1994: 123750)  GPS05     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 123810)  GPS05     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 123810)  GPS05     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 123855)  GPS25     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 124380)  GLN02/-04 L1GLOP  PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* VITH     (1994: 124620)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124650)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124680)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124710)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124740)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124770)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124800)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124830)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124860)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124890)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124920)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* OLVN     (1994: 124950)  GPS29     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 124950)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 124980)  GPS25                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRFJ     (1994: 126990)  GPS14     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 127560)  GLN02/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 127590)  GPS14     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 127620)  GLN02/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 127620)  GLN02/-04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 127620)  GLN02/-04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 127950)  GLN02/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 128340)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 128805)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 128895)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 128955)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 129600)  GLN14/-07 L1GLOCA PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* OLVN     (1994: 129840)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 129855)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 129855)  GPS14     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 129960)  GLN14/-07 L1GLOCA PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* PRHL     (1994: 130200)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130230)  GLN05/+01               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 130260)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130260)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130290)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130320)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 130350)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 130380)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRLP     (1994: 130380)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130410)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130410)  GLN19/+03 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130410)  GLN19/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130410)  GLN19/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130410)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130440)  GLN05/+01               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 130470)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130470)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130500)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRLP     (1994: 130530)  GLN05/+01               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRLP     (1994: 130560)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130560)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130770)  GLN19/+03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130770)  GLN19/+03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130770)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130770)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 130800)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 130800)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 130800)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 130890)  GLN14/-07 L2GLOP  PHASE BAD_VALUE_RANGE
+VRS Processing Message: *RDA* PRFJ     (1994: 130950)  GLN13/-02 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 130950)  GLN13/-02 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 131100)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 131100)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 131130)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 131280)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 131280)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 131370)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 131370)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 131700)  GPS15     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 133200)  GPS24     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 133200)  GPS24     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 133440)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133470)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133500)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133530)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133560)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133590)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133620)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133650)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133680)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133710)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133740)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133770)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 133800)  GPS26                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* OLVN     (1994: 133860)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 134100)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 134115)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 134130)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 134220)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 134235)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 134550)  GPS29     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 134760)  GPS20     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 134850)  GPS29     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 134940)  GPS20                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 134970)  GPS20     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 135285)  GPS21     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 137220)  GPS12     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 137220)  GPS12     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 137400)  GPS12     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 137580)  GPS16     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 137580)  GPS16     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 138120)  GPS16     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 138120)  GPS16     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 138180)  GLN06/-04               NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* VITH     (1994: 138990)  GPS22                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* PRFJ     (1994: 140070)  GLN15/+00 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 140070)  GLN15/+00 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 141600)  GLN15/+00 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 141600)  GLN15/+00 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 141960)  GLN15/+00 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 141960)  GLN15/+00 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 141990)  GLN15/+00 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 141990)  GLN15/+00 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142080)  GLN18/-03 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 142080)  GPS03                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* PRHL     (1994: 142110)  GLN18/-03 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142110)  GLN18/-03 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142110)  GLN18/-03 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142260)  GLN15/+00 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142260)  GLN15/+00 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142650)  GLN15/+00 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 142650)  GLN15/+00 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 142710)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 142770)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 142785)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 142905)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 142920)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 143010)  GPS25     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 143040)  GPS25     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 143040)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 143040)  GPS27     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 144180)  GLN19/+03 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145275)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145290)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145305)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145320)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145350)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145365)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 145380)  GPS10     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 146430)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 146430)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 146460)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 147030)  GPS29     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 147060)  GPS29     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 147300)  GPS23                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* PRHL     (1994: 147570)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 147570)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 147675)  GPS08     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 147675)  GPS08     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 147780)  GPS08     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 147780)  GPS08     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 147810)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRLP     (1994: 147840)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 147840)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 147840)  GPS08                   CARRIER_DRIFT
+VRS Processing Message: *RDA* VITH     (1994: 147870)  GPS08     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 147870)  GPS08     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 147900)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 147930)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 147960)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 147990)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 148020)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 148050)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 148080)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 148110)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* VITH     (1994: 148140)  GPS08                   CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRLP     (1994: 148380)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 148380)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148470)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148530)  GLN05/+01               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 148560)  GLN05/+01               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 148590)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148590)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148590)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148620)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 148650)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 148680)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 148710)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRLP     (1994: 148710)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 148710)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 148710)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148740)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 148770)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 148800)  GLN05/+01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRLP     (1994: 148800)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 148800)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 148800)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 148830)  GLN05/+01               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 149010)  GLN05/+01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 149010)  GLN05/+01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 149010)  GLN05/+01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 149550)  GLN10/-07 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 149550)  GLN10/-07 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 149880)  GLN10/-07 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 149880)  GLN10/-07 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 150330)  GLN10/-07 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 150330)  GLN10/-07 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 150810)  GPS32     L1CA    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 150810)  GPS32     L2CM    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 150840)  GPS32     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 150870)  GPS32     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 151380)  GPS32     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 151380)  GPS32     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 151395)  GPS32     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 151395)  GPS32     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 151950)  GLN10/-07 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 151950)  GLN10/-07 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 152610)  GLN10/-07 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 152610)  GLN10/-07 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 152670)  GPS09                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* OLVN     (1994: 152820)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 152835)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153045)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153060)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153060)  GLN06/-04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153060)  GLN06/-04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153150)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 153240)  GPS18     L1CA    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 153240)  GPS18     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153285)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153300)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153315)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153330)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153390)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153450)  GPS11     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153570)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153570)  GPS18     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153585)  GPS18     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153585)  GPS18     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 153750)  GPS18     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153810)  GLN06/-04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153810)  GLN06/-04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 153840)  GPS11                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* PRHL     (1994: 153900)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 153900)  GLN06/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 153930)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 153930)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153930)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 153930)  GPS14     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 153960)  GPS03     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154050)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154110)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154110)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154170)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154200)  GPS11     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154200)  GPS11     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154230)  GLN06/-04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154230)  GLN06/-04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154230)  GLN06/-04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154290)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154290)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154380)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154380)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154410)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154410)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154500)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154560)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154590)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154590)  GPS14     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154590)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154620)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154620)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154620)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 154620)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154680)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154710)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154710)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154740)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154740)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 154890)  GPS03     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154950)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 154950)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 154965)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 155010)  GPS14     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 155610)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 155610)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 155640)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155640)  GLN16/-01 L1GLOCA PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 155670)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155700)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155730)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155760)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155790)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155820)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155850)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155880)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 155910)  GLN16/-01               CARRIER_DRIFT POOR_SIGNAL_QUALITY
+VRS Processing Message: *RDA* PRHL     (1994: 156000)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 156000)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 156000)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 156000)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156090)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 156090)  GPS07     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156105)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156135)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156150)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156165)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156180)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156210)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 156210)  GLN16/-01 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156255)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156300)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 156330)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 156330)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 156450)  GLN16/-01 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 156450)  GLN16/-01 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156465)  GPS01     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156930)  GPS01     L1CA    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 156930)  GPS01     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 157560)  GPS26     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 157560)  GPS26     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 157620)  GPS07                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* PRHL     (1994: 157680)  GPS26     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 158250)  GPS26     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 158340)  GPS31     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 159645)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 159930)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 159945)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 159990)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 160665)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 160770)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 160770)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 160830)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRLP     (1994: 160830)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 160980)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 160980)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 160980)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 160980)  GPS22     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 161010)  GPS22     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 161490)  GPS30                   NO_PREV_EPHEMERIS
+VRS Processing Message: *RDA* ZSU4     (1994: 163140)  GPS28                   BAD_SPP_SAT
+VRS Processing Message: *RDA* ZSU4     (1994: 163140)  GPS28     L1CA    CODE  BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163140)  GPS28     L2P     CODE  BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163140)  GPS28     L1CA    PHASE BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163140)  GPS28     L2P     PHASE BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163170)  GPS28     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 163170)  GPS28     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 163230)  GPS28     L1CA    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 163230)  GPS28     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 163260)  GPS28     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 163440)  GPS03     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* ZSU4     (1994: 163470)  GPS28                   BAD_SPP_SAT
+VRS Processing Message: *RDA* ZSU4     (1994: 163470)  GPS28     L1CA    CODE  BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163470)  GPS28     L2P     CODE  BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163470)  GPS28     L1CA    PHASE BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163470)  GPS28     L2P     PHASE BAD_SPP_RESID
+VRS Processing Message: *RDA* ZSU4     (1994: 163500)  GPS28     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 163545)  GPS03     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 163800)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 164175)  GPS28     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRFJ     (1994: 164190)  GPS03     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 164205)  GPS28     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 164370)  GPS16     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 164460)  GPS27     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 164460)  GPS27     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 164520)  GPS27     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 164700)  GLN20/+02 L1GLOCA PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 165210)  GPS16     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 165525)  GPS23     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 165600)  GPS23     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 165735)  GPS23     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166170)  GPS23     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166185)  GPS23     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166410)  GPS16     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166500)  GPS16     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166500)  GPS16     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166620)  GPS16     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 166620)  GPS16     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167790)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167790)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167805)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167805)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167820)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167820)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167850)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 167850)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 168240)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 168240)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 168390)  GPS09     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 168390)  GPS09     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 168885)  GPS09     L1CA    PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 168885)  GPS09     L2P     PHASE RESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 169170)  GPS19     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 169950)  GPS06     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 169950)  GPS06     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 170100)  GPS06     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 170100)  GPS06     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 170670)  GPS19     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* VITH     (1994: 170670)  GPS19     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 171390)  GPS19     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 171390)  GPS19     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 171405)  GPS19     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 171435)  GPS19     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* OLVN     (1994: 171435)  GPS19     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 171480)  GPS08     L1CA    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 171510)  GPS08     L2CM    PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 171510)  GPS08     L2P     PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172380)  GLN21/+04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172380)  GLN21/+04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172380)  GLN21/+04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172410)  GLN21/+04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172440)  GLN21/+04 L1GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172500)  GLN21/+04               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 172530)  GLN21/+04               CARRIER_DRIFT
+VRS Processing Message: *RDA* PRHL     (1994: 172560)  GLN21/+04 L2GLOCA PHASE UNRESOLVED_CYCLE_SLIP
+VRS Processing Message: *RDA* PRHL     (1994: 172560)  GLN21/+04 L2GLOP  PHASE UNRESOLVED_CYCLE_SLIP
+
+--------------------------------------------------------------------------------
+              SmartBase Statistics
+--------------------------------------------------------------------------------
+SmartBase Status: PROC_STATUS_OK
+Primary Station ID: PRFJ
+Primary Station Data-rate: 30.0 s
+VRS/ASB generation rate: 1.0 s
+VRS/ASB Time span:  35999 s (1994 130620 - 1994 166619)
+Number of Reference Stations: 6
+Percentage of Primary Station GPS Measurement Usage: 94.3%
+Percentage of Primary Station GLONASS Measurement Usage: 66.5%
+Average Number of satellites per epoch: 13.4
+Max number of stations for GPS interpolation:  6
+Min number of stations for GPS interpolation:  3
+Max number of stations for GLONASS interpolation:  3
+Min number of stations for GLONASS interpolation:  3
+Total full data gap: 0 s
+Total GPS full data gap: 0 s
+Total GLONASS full data gap: 0 s
+Total individual satellite data gap: 91703 s
+The percentage of GPS precise ephemeris used in VRS generation is:   0.00% 
+The percentage of GPS broadcast ephemeris used in VRS generation is: 100.00% 
+The percentage of GLONASS precise ephemeris used in VRS generation is:   0.00% 
+The percentage of GLONASS broadcast ephemeris used in VRS generation is: 100.00% 
+--------------------------------------------------------------------------------
+Termination status : Normal
+--------------------------------------------------------------------------------
+Station             Input Coords        
+OLVN                Original            
+PRHL                Original            
+ZSU4                Original            
+PRLP                Original            
+VITH                Control             
+PRFJ                Original            
+--------------------------------------------------------------------------------
+              Reference Station Raw Data Analysis                               
+--------------------------------------------------------------------------------
+
+Station | Data | Time Span |  Start time   |   End Time    | Data | ------------------------ GPS -------------------------- | ----------------------- GLONASS ----------------------- |
+        |      |           |               |               | rate | Total |  Max |  Min | Unrepaired |      Simul    | SBQI | Total |  Max |  Min | Unrepaired |      Simul    | SBQI |
+  ID    |      |   (sec)   |  week : sec   |  week : sec   |  (s) |  Gap  |  Gap |  Gap |     CS     | unrepaired_CS |      |  Gap  |  Gap |  Gap |     CS     | unrepaired_CS |      |
+  OLVN     GPS   35985.0       1994:130620     1994:166605    15       0      0      0        72              0          9   36000      0      0         0              0         -1
+  PRHL    GNSS   35970.0       1994:130620     1994:166590    30       0      0      0        27              0          9       0      0      0        20              0          9
+  ZSU4     GPS   35970.0       1994:130620     1994:166590    30       0      0      0         6              0          9   36000      0      0         0              0         -1
+  PRLP    GNSS   35970.0       1994:130620     1994:166590    30       0      0      0         0              0          9       0      0      0        10              0          9
+  VITH     GPS   35970.0       1994:130620     1994:166590    30       0      0      0        22              0          9   36000      0      0         0              0         -1
+  PRFJ    GNSS   35970.0       1994:130620     1994:166590    30       0      0      0        14              0          9       0      0      0        20              0          9

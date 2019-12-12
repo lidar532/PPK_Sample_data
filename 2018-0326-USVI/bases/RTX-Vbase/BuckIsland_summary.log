@@ -1,0 +1,29 @@
+Applanix SmartBase Cloud Base Station Summary
+
+Project Date: Thu, 29 Mar 2018 20:21:29 UTC
+Project Name: BuckIsland
+
+============================
+
+Datum: ITRF00
+
+Epoch: Mon, 26 Mar 2018 12:17:00 UTC
+
+--Geographic Coordinates--
+Latitude: 17.7720566552819 degrees
+Longitude: -64.5992660501355 degrees
+Ellipsoidal height: 121.920029306784 m
+
+--Earth-centered Earth-fixed (ECEF) Coordinates--
+X: 2606182.7863 m
+Y: -5488426.7515 m
+Z: 1934412.4544 m
+
+Quality Index
+Overall SmartBase quality: Fail
+Fail condition: the trajectory cannot be fully covered by the SmartBase network.
+Furthest point from a station: 83274.4439787799 m
+Furthest point from SmartBase station: 10473.9647343977 m
+Inter-station distance metric: 330939.30612068 m
+Number of stations used: 7
+Trajectory inside SmartBase polygon: False
