@@ -1,0 +1,103 @@
+PROGRAM = datasheet95, VERSION = 8.12.5.4
+1        National Geodetic Survey,   Retrieval Date = SEPTEMBER 10, 2019
+ DO2636 ***********************************************************************
+ DO2636  CORS        -  This is a GPS Continuously Operating Reference Station.
+ DO2636  DESIGNATION -  FAJARDO CORS ARP
+ DO2636  CORS_ID     -  PRFJ
+ DO2636  PID         -  DO2636
+ DO2636  STATE/COUNTY-  PR/FAJARDO
+ DO2636  COUNTRY     -  US
+ DO2636  USGS QUAD   -  
+ DO2636
+ DO2636                         *CURRENT SURVEY CONTROL
+ DO2636  ______________________________________________________________________
+ DO2636* NAD 83(2011) POSITION- 18 19 34.73673(N) 065 39 05.00877(W)   ADJUSTED  
+ DO2636* NAD 83(2011) ELLIP HT-   -20.770 (meters)        (06/??/19)   ADJUSTED
+ DO2636* NAD 83(2011) EPOCH   -  2010.00
+ DO2636  ______________________________________________________________________
+ DO2636  GEOID HEIGHT    -        -41.377 (meters)                     GEOID18
+ DO2636  NAD 83(2011) X  -  2,497,072.483 (meters)                     COMP
+ DO2636  NAD 83(2011) Y  - -5,517,916.116 (meters)                     COMP
+ DO2636  NAD 83(2011) Z  -  1,992,695.631 (meters)                     COMP
+ DO2636
+ DO2636  Network accuracy estimates per FGDC Geospatial Positioning Accuracy
+ DO2636  Standards:                                                         
+ DO2636         FGDC (95% conf, cm)     Standard deviation (cm)     CorrNE 
+ DO2636            Horiz  Ellip           SD_N   SD_E   SD_h      (unitless)
+ DO2636  -------------------------------------------------------------------
+ DO2636  NETWORK    0.19   0.55           0.09   0.06   0.28     -0.25452400
+ DO2636  -------------------------------------------------------------------
+ DO2636
+ DO2636
+ DO2636.The coordinates were established by GPS observations
+ DO2636.and adjusted by the National Geodetic Survey in June 2019.
+ DO2636
+ DO2636.NAD 83(2011) refers to NAD 83 coordinates where the reference frame has 
+ DO2636.been affixed to the stable North American Tectonic Plate. 
+ DO2636
+ DO2636.The coordinates are valid at the epoch date displayed above
+ DO2636.which is a decimal equivalence of Year/Month/Day.
+ DO2636
+ DO2636.Due to the release of the International GNSS Service (IGS) 2014
+ DO2636.realization of the International Terrestrial Reference Frame of 2014
+ DO2636.(ITRF2014), NGS reprocessed all NOAA CORS Network and some IGS stations
+ DO2636.using data collected between 1/1/1996 and 1/30/2017. The resulting ITRF2014
+ DO2636.epoch 2010.00 coordinates, referred to as Multi-Year CORS Solution 2
+ DO2636.(MYCS2), were transformed to NAD 83 (2011/PA11/MA11) maintaining the
+ DO2636.currently published epoch of 2010.00.
+ DO2636
+ DO2636.Additional information on MYCS2 is available at
+ DO2636.https://geodesy.noaa.gov/CORS/coords.shtml
+ DO2636
+ DO2636.Significant digits in the geoid height do not necessarily reflect accuracy.
+ DO2636.GEOID18 height accuracy estimate available here.
+ DO2636
+ DO2636.The PID for the CORS L1 Phase Center is DO2637.
+ DO2636
+ DO2636.Click here to see if photographs exist for this station.
+ DO2636
+ DO2636.The XYZ, and position/ellipsoidal ht. are equivalent.
+ DO2636
+ DO2636.The ellipsoidal height was determined by GPS observations
+ DO2636.and is referenced to NAD 83.
+ DO2636
+ DO2636. The following values were computed from the NAD 83(2011) position.
+ DO2636
+ DO2636;                    North         East     Units Scale Factor Converg.
+ DO2636;SPC PRVI     -   254,740.449   282,657.259   MT  0.99999525   +0 14 40.8
+ DO2636;UTM  20      - 2,028,328.312   219,756.763   MT  1.00057104   -0 50 03.2
+ DO2636
+ DO2636!             -  Elev Factor  x  Scale Factor =   Combined Factor
+ DO2636!SPC PRVI     -   1.00000327  x   0.99999525  =   0.99999852
+ DO2636!UTM  20      -   1.00000327  x   1.00057104  =   1.00057431
+ DO2636
+ DO2636_U.S. NATIONAL GRID SPATIAL ADDRESS: 20QKF1975628328(NAD 83)
+ DO2636
+ DO2636                          SUPERSEDED SURVEY CONTROL
+ DO2636
+ DO2636  NAD 83(2011)-  18 19 34.73697(N)    065 39 05.00894(W) AD(2010.00) c
+ DO2636  ELLIP H (12/??/12)  -20.768  (m)                       GP(2010.00) c c
+ DO2636
+ DO2636.Superseded values are not recommended for survey control.
+ DO2636
+ DO2636.NGS no longer adjusts projects to the PR datum.
+ DO2636.See file dsdata.pdf to determine how the superseded data were derived.
+ DO2636
+ DO2636_MARKER: STATION IS THE ANTENNA REFERENCE POINT OF THE GPS ANTENNA
+ DO2636
+ DO2636                          STATION DESCRIPTION
+ DO2636
+ DO2636'DESCRIBED BY NATIONAL GEODETIC SURVEY 2019
+ DO2636'STATION IS A GPS CORS.  LATEST INFORMATION INCLUDING POSITIONS AND
+ DO2636'VELOCITIES ARE AVAILABLE IN THE COORDINATE AND LOG FILES ACCESSIBLE
+ DO2636'BY ANONYMOUS FTP OR THE WORLDWIDE WEB.
+ DO2636'   ftp://cors.ngs.noaa.gov/cors/README.txt
+ DO2636'   ftp://cors.ngs.noaa.gov/cors/coord/coord_14 
+ DO2636'   ftp://cors.ngs.noaa.gov/cors/station_log 
+ DO2636'   http://geodesy.noaa.gov/CORS
+
+ *** retrieval complete.
+ Elapsed Time = 00:00:00
+
+
+

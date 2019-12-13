@@ -1,0 +1,90 @@
+                              ***ITRF2014***
+                FAJARDO (PRFJ),  PUERTO RICO
+
+ Retrieved from NGS DataBase on 07/02/19 at 15:15:34.
+ _____________________________________________________________________________ 
+|                                                                             |
+|         Antenna Reference Point(ARP): FAJARDO CORS ARP                      |
+|         ----------------------------------------------                      |
+|                             PID = DO2636                                    |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =   2497071.765 m     latitude    =  18 19 34.75112 N                 |
+|     Y =  -5517914.331 m     longitude   = 065 39 05.00598 W                 |
+|     Z =   1992695.461 m     ellipsoid height =  -22.648   m                 |
+|                                                                             |
+| ITRF2014 VELOCITY                                                           |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     VX =   0.0059 m/yr      northward =   0.0144 m/yr                       |
+|     VY =   0.0087 m/yr      eastward  =   0.0090 m/yr                       |
+|     VZ =   0.0134 m/yr      upward    =  -0.0010 m/yr                       |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =   2497072.483 m     latitude    =  18 19 34.73673 N                 |
+|     Y =  -5517916.116 m     longitude   = 065 39 05.00877 W                 |
+|     Z =   1992695.631 m     ellipsoid height =  -20.770   m                 |
+|                                                                             |
+| NAD_83 (2011) VELOCITY                                                      |
+| Transformed from IGS14 velocity in Jun 2019.                                |
+|     VX =   0.0152 m/yr      northward =   0.0050 m/yr                       |
+|     VY =   0.0098 m/yr      eastward  =   0.0179 m/yr                       |
+|     VZ =   0.0044 m/yr      upward    =  -0.0011 m/yr                       |
+|_____________________________________________________________________________|
+|                                                                             |
+| L1 Phase Center of the current GPS antenna: FAJARDO CORS L1PC               |
+| ----------------------------------------------------------------            |
+| The Zephyr GNSS Geodetic II - RoHS compliant antenna                        |
+| (Antenna Code = TRM57971.00     NONE) was installed on 10Sep2012.           |
+|        The L2 phase center is 0.007 m below the L1 phase center.            |
+|                             PID = DO2637                                    |
+|                                                                             |
+|                                                                             |
+| ITRF2014 POSITION (EPOCH 2010.0)                                            |
+| Computed in Jun 2019 using data through gpswk 1933.                         |
+|     X =   2497071.790 m     latitude    =  18 19 34.75116 N                 |
+|     Y =  -5517914.387 m     longitude   = 065 39 05.00598 W                 |
+|     Z =   1992695.482 m     ellipsoid height =  -22.583   m                 |
+|                                                                             |
+| The ITRF2014 VELOCITY of the L1 PC is the same as that for the ARP.         |
+|                                                                             |
+|                                                                             |
+| NAD_83 (2011) POSITION (EPOCH 2010.0)                                       |
+| Transformed from IGS14 (epoch 2010.0) position in Jun 2019.                 |
+|     X =   2497072.508 m     latitude    =  18 19 34.73677 N                 |
+|     Y =  -5517916.171 m     longitude   = 065 39 05.00877 W                 |
+|     Z =   1992695.653 m     ellipsoid height =  -20.705   m                 |
+|                                                                             |
+| The NAD_83 (2011) VELOCITY of the L1 PC is the same as that for the ARP.    |
+|_____________________________________________________________________________|
+
+
+ * Latitude, longitude and ellipsoid height are computed from their
+   corresponding cartesian coordinates using dimensions for the
+   GRS 80 ellipsoid: semi-major axis = 6,378,137.0 meters
+                          flattening = 1/298.257222101...
+
+
+ * WARNING: Mixing of antenna types can lead to errors of up to 10 cm.
+   in height unless antenna-phase-center variation and antenna-phase-center
+   offset are properly modeled.  See next comment.
+
+ * The coordinates shown on this page were computed using absolute antenna
+   calibrations.  CORS coordinates began using absolute antenna calibrations
+   beginning with IGS08 and NAD 83 (2011, MA11, PA11).  For additional
+   information on the derivation of these positions and velocities and
+   antenna calibrations consult:
+   http://geodesy.noaa.gov/CORS/coords.shtml
+   http://geodesy.noaa.gov/ANTCAL
+
+
+ * For more site specific information on the equipment history and
+   monumentation type consult:
+   ftp://geodesy.noaa.gov/cors/station_log/prfj.log.txt
+   http://geodesy.noaa.gov/cgi-cors/corsage_2.prl?site=prfj
+
+
+ * The position & velocity were revised in Jun 2019.
