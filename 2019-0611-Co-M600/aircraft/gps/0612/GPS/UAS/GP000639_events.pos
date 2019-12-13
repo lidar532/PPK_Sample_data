@@ -1,0 +1,15 @@
+% program   : RTKPOST ver.demo5 b31
+% inp file  : H:\Data\Colorado\2019-0611\Joe_M600_PPK_Test_20190611_Ricoh_JPGs\CWW_PPK\2019\0612\GPS\UAS\GP000639.obs
+% inp file  : H:\Data\Colorado\2019-0611\Joe_M600_PPK_Test_20190611_Ricoh_JPGs\CWW_PPK\2019\0612\GPS\UAS\GP000639.gnav
+% inp file  : H:\Data\Colorado\2019-0611\Joe_M600_PPK_Test_20190611_Ricoh_JPGs\CWW_PPK\2019\0612\GPS\UAS\GP000639.nav
+% obs start : 2019/06/12 00:06:39.5 UTC (week2057 259617.5s)
+% obs end   : 2019/06/12 01:03:09.0 UTC (week2057 263007.0s)
+% pos mode  : single
+% elev mask : 10.0 deg
+% ionos opt : broadcast
+% tropo opt : saastamoinen
+% ephemeris : broadcast
+% navi sys  : gps glonass sbas
+%
+% (lat/lon/height=WGS84/ellipsoidal,Q=1:fix,2:float,3:sbas,4:dgps,5:single,6:ppp,ns=# of satellites)
+%  UTC                   latitude(deg) longitude(deg)  height(m)   Q  ns   sdn(m)   sde(m)   sdu(m)  sdne(m)  sdeu(m)  sdun(m) age(s)  ratio

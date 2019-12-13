@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"
+     xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <Document>
+        <name>AeroPoint Survey as5f824722</name>
+
+        
+        <Placemark>
+            <name>Point 1 (ac7b5bafd5)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 13072885
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:06 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:22 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.71462527&deg;
+                <br />
+                <b>Longitude:</b> -105.11536891&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1693.343 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490111.271 m
+                <br />
+                <b>Northing:</b> 4396090.558 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1709.716 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1395
+                <br />
+                <b>Points used:</b> 1391 (99.7%)
+                <br />
+                <b>Baseline distance:</b> 0.06 km
+                <br />
+                <b>Data variance:</b> 0.1 mm / 0.3 mm / 0.2 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.11536891,39.714625269,1693.3429
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark>
+            <name>Point 2 (ac1e457d4b)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 8366556
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:10 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:21 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.71406533&deg;
+                <br />
+                <b>Longitude:</b> -105.11588867&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1695.089 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490066.639 m
+                <br />
+                <b>Northing:</b> 4396028.471 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1711.458 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1397
+                <br />
+                <b>Points used:</b> 1393 (99.7%)
+                <br />
+                <b>Baseline distance:</b> 0.07 km
+                <br />
+                <b>Data variance:</b> 0.2 mm / 0.3 mm / 1.0 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.115888674,39.714065334,1695.0894
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark>
+            <name>Point 3 (ac3b3c6a62)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 2323908
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:11 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:20 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.7141387&deg;
+                <br />
+                <b>Longitude:</b> -105.11526505&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1693.546 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490120.104 m
+                <br />
+                <b>Northing:</b> 4396036.544 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1709.919 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1397
+                <br />
+                <b>Points used:</b> 1393 (99.7%)
+                <br />
+                <b>Baseline distance:</b> 0.09 km
+                <br />
+                <b>Data variance:</b> 0.2 mm / 0.1 mm / 0.5 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.115265047,39.714138695,1693.5456
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark>
+            <name>Point 4 (ac85f777b3)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 2324199
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:12 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:19 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.71441087&deg;
+                <br />
+                <b>Longitude:</b> -105.11450714&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1692.227 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490185.106 m
+                <br />
+                <b>Northing:</b> 4396066.669 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1708.606 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1396
+                <br />
+                <b>Points used:</b> 1392 (99.7%)
+                <br />
+                <b>Baseline distance:</b> 0.13 km
+                <br />
+                <b>Data variance:</b> 0.3 mm / 0.1 mm / 0.5 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.114507141,39.714410875,1692.2273500000001
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark>
+            <name>Point 5 (aca32d002c)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 13073503
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:16 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:17 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.71496754&deg;
+                <br />
+                <b>Longitude:</b> -105.11460352&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1692.084 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490176.924 m
+                <br />
+                <b>Northing:</b> 4396128.461 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1708.464 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1397
+                <br />
+                <b>Points used:</b> 1393 (99.7%)
+                <br />
+                <b>Baseline distance:</b> 0.13 km
+                <br />
+                <b>Data variance:</b> 1.4 mm / 1.0 mm / 1.4 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.114603517,39.714967541,1692.0843
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark>
+            <name>Point 6 (ac1bcbcc5e)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 4903124
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:20 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:14 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.71489502&deg;
+                <br />
+                <b>Longitude:</b> -105.11570667&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1689.936 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490082.359 m
+                <br />
+                <b>Northing:</b> 4396120.533 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1706.307 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1397
+                <br />
+                <b>Points used:</b> 1392 (99.6%)
+                <br />
+                <b>Baseline distance:</b> 0.04 km
+                <br />
+                <b>Data variance:</b> 0.1 mm / 0.1 mm / 0.4 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.115706667,39.714895019,1689.9355
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark>
+            <name>Point 7 (ac864ee691)</name>
+            <description>
+                <![CDATA[
+                <b>AeroPoint ID:</b> 8317619
+                <br />
+                <b>Capture Start:</b> 11 Jun 2019 3:21 PM MDT
+                <br />
+                <b>Capture End:</b> 11 Jun 2019 7:13 PM MDT
+                <br />
+
+                <h3>NAD83(2011)</h3>
+                <b>Latitude:</b> 39.71466039&deg;
+                <br />
+                <b>Longitude:</b> -105.11601802&deg;
+                <br />
+                <b>Ellipsoid height:</b> 1691.045 m
+
+                
+                <h3>NAD83(2011) / UTM zone 13N</h3>
+
+                <b>Easting:</b> 490055.638 m
+                <br />
+                <b>Northing:</b> 4396094.528 m
+                <br />
+                
+
+                
+                <h3>NAVD88 height</h3>
+
+                <b>Height:</b> 1707.414 m
+                <br />
+                
+
+                <h3>Quality</h3>
+                <b>Data points:</b> 1392
+                <br />
+                <b>Points used:</b> 1391 (99.9%)
+                <br />
+                <b>Baseline distance:</b> 6.63 km
+                <br />
+                <b>Data variance:</b> 0.2 mm / 0.5 mm / 0.2 mm
+                ]]>
+            </description>
+            <Point>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>
+                    -105.116018017,39.714660392,1691.0451
+                </coordinates>
+            </Point>
+        </Placemark>
+        
+
+    </Document>
+</kml>
